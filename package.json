@@ -1,0 +1,19 @@
+{
+  "name": "heartopia-guide",
+  "version": "1.0.0",
+  "description": "Heartopia Guide 2026 - Database & Wiki",
+  "main": "index.html",
+  "scripts": {
+    "dev": "npx serve .",
+    "upload-data": "node upload-data.js",
+    "deploy": "vercel --prod",
+    "build": "echo 'Static build complete'"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.39.0"
+  },
+  "devDependencies": {
+    "serve": "^14.2.1",
+    "vercel": "^32.4.3"
+  }
+}

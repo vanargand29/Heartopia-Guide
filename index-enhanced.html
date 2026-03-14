@@ -1,0 +1,746 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Heartopia Guide 2026 • Database & Wiki</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+  
+  <style>
+    :root {
+      --primary: #e91e63;
+      --primary-dark: #c2185b;
+      --secondary: #9c27b0;
+      --success: #4caf50;
+      --warning: #ff9800;
+      --info: #2196f3;
+      --bg: #0f0f17;
+      --bg-secondary: #1a1a2e;
+      --card: #1a1a2e;
+      --card-hover: #252540;
+      --text: #e0e0ff;
+      --text-light: #a0a0cc;
+      --text-dim: #777799;
+      --border: #333355;
+      --border-hover: #444466;
+      --shadow: rgba(0,0,0,0.3);
+      --shadow-hover: rgba(0,0,0,0.5);
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Inter', system-ui, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      min-height: 100vh;
+    }
+
+    header {
+      background: linear-gradient(135deg, #1e0033, #0d001a);
+      padding: 2rem 5%;
+      border-bottom: 2px solid var(--border);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      backdrop-filter: blur(10px);
+      box-shadow: 0 4px 20px var(--shadow);
+    }
+
+    .container {
+      max-width: 1400px;
+      margin: 0 auto;
+      padding: 0 1.5rem;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      color: white;
+      margin-bottom: 0.5rem;
+      font-weight: 700;
+      text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+    }
+
+    .subtitle {
+      color: var(--text-light);
+      font-size: 1.1rem;
+      font-weight: 400;
+    }
+
+    .stats-bar {
+      display: flex;
+      gap: 2rem;
+      margin-top: 1rem;
+      flex-wrap: wrap;
+    }
+
+    .stat-item {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      color: var(--text-light);
+      font-size: 0.9rem;
+    }
+
+    .stat-item i {
+      color: var(--primary);
+    }
+
+    nav.tabs {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.8rem;
+      margin: 2rem 0 1.5rem;
+      padding-bottom: 1rem;
+      border-bottom: 2px solid var(--border);
+    }
+
+    nav.tabs button {
+      background: var(--card);
+      border: 2px solid var(--border);
+      color: var(--text);
+      padding: 0.8rem 1.6rem;
+      border-radius: 999px;
+      cursor: pointer;
+      font-weight: 600;
+      font-size: 0.95rem;
+      transition: all 0.3s ease;
+      position: relative;
+      overflow: hidden;
+    }
+
+    nav.tabs button::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: -100%;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(90deg, transparent, rgba(255,255,255,0.1), transparent);
+      transition: left 0.5s;
+    }
+
+    nav.tabs button:hover::before {
+      left: 100%;
+    }
+
+    nav.tabs button:hover {
+      background: var(--card-hover);
+      border-color: var(--border-hover);
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px var(--shadow);
+    }
+
+    nav.tabs button.active {
+      background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+      color: white;
+      border-color: var(--primary);
+      box-shadow: 0 4px 15px rgba(233,30,99,0.3);
+    }
+
+    .search-container {
+      margin: 1.5rem 0 2rem;
+      position: relative;
+      max-width: 600px;
+    }
+
+    .search-bar {
+      position: relative;
+    }
+
+    .search-bar input {
+      width: 100%;
+      padding: 1rem 1.3rem 1rem 3rem;
+      border-radius: 16px;
+      border: 2px solid var(--border);
+      background: var(--bg-secondary);
+      color: white;
+      font-size: 1rem;
+      transition: all 0.3s ease;
+    }
+
+    .search-bar input:focus {
+      outline: none;
+      border-color: var(--primary);
+      box-shadow: 0 0 0 3px rgba(233,30,99,0.1);
+    }
+
+    .search-bar i {
+      position: absolute;
+      left: 1.2rem;
+      top: 50%;
+      transform: translateY(-50%);
+      color: var(--text-dim);
+    }
+
+    .filter-tags {
+      display: flex;
+      gap: 0.5rem;
+      margin-top: 1rem;
+      flex-wrap: wrap;
+    }
+
+    .filter-tag {
+      background: var(--card);
+      border: 1px solid var(--border);
+      color: var(--text-light);
+      padding: 0.4rem 0.8rem;
+      border-radius: 20px;
+      font-size: 0.85rem;
+      cursor: pointer;
+      transition: all 0.2s ease;
+    }
+
+    .filter-tag:hover, .filter-tag.active {
+      background: var(--primary);
+      color: white;
+      border-color: var(--primary);
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+      gap: 1.5rem;
+      margin-top: 1rem;
+    }
+
+    .card {
+      background: var(--card);
+      border-radius: 16px;
+      overflow: hidden;
+      border: 2px solid var(--border);
+      transition: all 0.3s ease;
+      position: relative;
+    }
+
+    .card::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 4px;
+      background: linear-gradient(90deg, var(--primary), var(--secondary));
+      opacity: 0;
+      transition: opacity 0.3s ease;
+    }
+
+    .card:hover::before {
+      opacity: 1;
+    }
+
+    .card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 20px 40px var(--shadow-hover);
+      border-color: var(--border-hover);
+      background: var(--card-hover);
+    }
+
+    .card-img {
+      width: 100%;
+      height: 180px;
+      object-fit: contain;
+      background: linear-gradient(135deg, #0a0a14, #141422);
+      padding: 1.5rem;
+      position: relative;
+    }
+
+    .card-img::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: linear-gradient(180deg, transparent 60%, rgba(0,0,0,0.3));
+      pointer-events: none;
+    }
+
+    .card-badge {
+      position: absolute;
+      top: 1rem;
+      right: 1rem;
+      background: rgba(233,30,99,0.9);
+      color: white;
+      padding: 0.3rem 0.8rem;
+      border-radius: 20px;
+      font-size: 0.75rem;
+      font-weight: 600;
+      backdrop-filter: blur(10px);
+    }
+
+    .card-body {
+      padding: 1.5rem;
+    }
+
+    .card-title {
+      font-size: 1.3rem;
+      margin-bottom: 0.5rem;
+      font-weight: 700;
+      color: var(--text);
+    }
+
+    .card-subtitle {
+      color: var(--text-light);
+      font-size: 0.95rem;
+      margin-bottom: 1rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .card-subtitle i {
+      color: var(--primary);
+      font-size: 0.8rem;
+    }
+
+    .card-details {
+      display: flex;
+      flex-direction: column;
+      gap: 0.8rem;
+      margin-bottom: 1rem;
+    }
+
+    .detail-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 0.9rem;
+    }
+
+    .detail-label {
+      color: var(--text-dim);
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .detail-value {
+      color: var(--text);
+      font-weight: 500;
+    }
+
+    .price-tags {
+      display: flex;
+      gap: 0.5rem;
+      flex-wrap: wrap;
+      margin-top: 1rem;
+    }
+
+    .price-tag {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.3rem;
+      background: linear-gradient(135deg, rgba(233,30,99,0.15), rgba(233,30,99,0.25));
+      color: #ff79b0;
+      padding: 0.5rem 1rem;
+      border-radius: 25px;
+      font-size: 0.9rem;
+      font-weight: 600;
+      border: 1px solid rgba(233,30,99,0.3);
+      transition: all 0.2s ease;
+    }
+
+    .price-tag:hover {
+      background: linear-gradient(135deg, rgba(233,30,99,0.25), rgba(233,30,99,0.35));
+      transform: scale(1.05);
+    }
+
+    .price-tag i {
+      font-size: 0.8rem;
+    }
+
+    .location-tags {
+      display: flex;
+      gap: 0.3rem;
+      flex-wrap: wrap;
+      margin-top: 0.5rem;
+    }
+
+    .location-tag {
+      background: rgba(33,150,243,0.15);
+      color: #64b5f6;
+      padding: 0.2rem 0.6rem;
+      border-radius: 12px;
+      font-size: 0.75rem;
+      border: 1px solid rgba(33,150,243,0.3);
+    }
+
+    .empty-state {
+      text-align: center;
+      padding: 6rem 1rem;
+      color: var(--text-dim);
+      font-size: 1.3rem;
+    }
+
+    .empty-state i {
+      font-size: 4rem;
+      color: var(--border);
+      margin-bottom: 1rem;
+      opacity: 0.5;
+    }
+
+    footer {
+      text-align: center;
+      padding: 3rem 1rem 2rem;
+      color: var(--text-dim);
+      font-size: 0.9rem;
+      border-top: 2px solid var(--border);
+      margin-top: 4rem;
+    }
+
+    .loading-spinner {
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+      border: 3px solid var(--border);
+      border-radius: 50%;
+      border-top-color: var(--primary);
+      animation: spin 1s ease-in-out infinite;
+    }
+
+    @keyframes spin {
+      to { transform: rotate(360deg); }
+    }
+
+    @media (max-width: 768px) {
+      .grid {
+        grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+        gap: 1rem;
+      }
+      
+      nav.tabs {
+        justify-content: center;
+      }
+      
+      h1 {
+        font-size: 2rem;
+      }
+      
+      .stats-bar {
+        gap: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="container">
+    <h1><i class="fas fa-heart"></i> Heartopia Guide 2026</h1>
+    <div class="subtitle">Database lengkap ingredients, makanan, ikan, burung, serangga & lainnya</div>
+    <div class="stats-bar" id="statsBar">
+      <div class="stat-item"><i class="fas fa-database"></i> <span id="totalItems">0 items</span></div>
+      <div class="stat-item"><i class="fas fa-layer-group"></i> <span id="totalCategories">6 categories</span></div>
+      <div class="stat-item"><i class="fas fa-clock"></i> <span id="lastUpdated">Updated: 2026</span></div>
+    </div>
+  </div>
+</header>
+
+<div class="container">
+
+  <nav class="tabs">
+    <button class="active" data-tab="foods"><i class="fas fa-utensils"></i> Makanan</button>
+    <button data-tab="ingredients"><i class="fas fa-carrot"></i> Bahan</button>
+    <button data-tab="seeds"><i class="fas fa-seedling"></i> Benih</button>
+    <button data-tab="insects"><i class="fas fa-bug"></i> Serangga</button>
+    <button data-tab="birds"><i class="fas fa-dove"></i> Burung</button>
+    <button data-tab="fish"><i class="fas fa-fish"></i> Ikan</button>
+  </nav>
+
+  <div class="search-container">
+    <div class="search-bar">
+      <i class="fas fa-search"></i>
+      <input type="text" id="searchInput" placeholder="Cari nama makanan, bahan, ikan, burung..." autocomplete="off">
+    </div>
+    <div class="filter-tags" id="filterTags">
+      <!-- Filter tags will be generated dynamically -->
+    </div>
+  </div>
+
+  <div id="contentArea" class="grid">
+    <!-- Cards will be generated by JavaScript -->
+  </div>
+
+</div>
+
+<footer>
+  <p><i class="fas fa-code"></i> Data diambil dari heartopia-data-2026-03-13.json • Dibuat untuk komunitas Heartopia • 2026</p>
+</footer>
+
+<script>
+// ================================================
+// Data Storage
+// ================================================
+let DATA = {
+  ingredients: [],
+  foods: [],
+  seeds: [],
+  insects: [],
+  birds: [],
+  fish: []
+};
+
+// ================================================
+// Load Data
+// ================================================
+async function loadData() {
+  try {
+    console.log('Loading data...');
+    document.getElementById('contentArea').innerHTML = '<div class="empty-state"><i class="fas fa-spinner fa-spin"></i> Loading data...</div>';
+    
+    const response = await fetch('./heartopia-data-2026-03-13.json');
+    if (!response.ok) {
+      throw new Error(`HTTP error! status: ${response.status}`);
+    }
+    
+    const localData = await response.json();
+    
+    DATA = {
+      ingredients: localData.ingredients || [],
+      foods: localData.foods || [],
+      seeds: localData.seeds || [],
+      insects: localData.insects || [],
+      birds: localData.birds || [],
+      fish: localData.fish || []
+    };
+    
+    console.log('Data loaded:', DATA);
+    updateStats();
+    renderTab(currentTab);
+    generateFilterTags();
+    
+  } catch (error) {
+    console.error('Error loading data:', error);
+    document.getElementById('contentArea').innerHTML = 
+      '<div class="empty-state"><i class="fas fa-exclamation-triangle"></i> Error loading data. Please refresh the page.</div>';
+  }
+}
+
+// ================================================
+// Update Statistics
+// ================================================
+function updateStats() {
+  const totalItems = Object.values(DATA).reduce((sum, items) => sum + items.length, 0);
+  document.getElementById('totalItems').textContent = `${totalItems} items`;
+}
+
+// ================================================
+// Generate Filter Tags
+// ================================================
+function generateFilterTags() {
+  const filterTags = document.getElementById('filterTags');
+  const currentItems = DATA[currentTab] || [];
+  const uniqueLevels = [...new Set(currentItems.map(item => item.hobby_level).filter(Boolean))];
+  
+  filterTags.innerHTML = uniqueLevels.length > 0 
+    ? uniqueLevels.map(level => 
+        `<span class="filter-tag" data-level="${level}">Level ${level}</span>`
+      ).join('')
+    : '';
+  
+  // Add event listeners to filter tags
+  filterTags.querySelectorAll('.filter-tag').forEach(tag => {
+    tag.addEventListener('click', () => {
+      tag.classList.toggle('active');
+      applyFilters();
+    });
+  });
+}
+
+// ================================================
+// Enhanced Card Rendering
+// ================================================
+function renderCard(item, type) {
+  let title = item.name;
+  let subtitle = '';
+  let priceTags = [];
+  let details = [];
+  let locations = [];
+  let badge = '';
+
+  // Common details
+  if (item.hobby_name) {
+    details.push({
+      label: `<i class="fas fa-palette"></i> ${item.hobby_name}`,
+      value: item.hobby_level ? `Level ${item.hobby_level}` : ''
+    });
+  }
+
+  if (item.source) {
+    details.push({
+      label: '<i class="fas fa-box"></i> Source',
+      value: item.source
+    });
+  }
+
+  // Type-specific rendering
+  if (type === 'foods' || type === 'ingredients') {
+    subtitle = item.hobby_level ? `Cooking Lv.${item.hobby_level}` : '';
+    
+    if (item.sell_price_stars) {
+      Object.entries(item.sell_price_stars).forEach(([stars, price]) => {
+        priceTags.push(`<span class="price-tag"><i class="fas fa-star"></i> ${stars} ${price}</span>`);
+      });
+    }
+    
+    if (item.buy_price) {
+      details.push({
+        label: '<i class="fas fa-shopping-cart"></i> Buy Price',
+        value: item.buy_price
+      });
+    }
+    
+  } else if (type === 'seeds') {
+    subtitle = item.hobby_level ? `Gardening Lv.${item.hobby_level}` : '';
+    
+    if (item.price) {
+      priceTags.push(`<span class="price-tag"><i class="fas fa-coins"></i> ${item.price}</span>`);
+    }
+    
+    if (item.growth_time) {
+      details.push({
+        label: '<i class="fas fa-clock"></i> Growth Time',
+        value: item.growth_time
+      });
+    }
+    
+  } else if (type === 'insects' || type === 'birds') {
+    subtitle = item.hobby_level ? `Bug Hunting Lv.${item.hobby_level}` : '';
+    
+    if (item.sell_price_stars) {
+      Object.entries(item.sell_price_stars).forEach(([stars, price]) => {
+        priceTags.push(`<span class="price-tag"><i class="fas fa-star"></i> ${stars} ${price}</span>`);
+      });
+    }
+    
+    if (item.locations && item.locations.length > 0) {
+      locations = item.locations;
+    }
+    
+  } else if (type === 'fish') {
+    subtitle = item.hobby_level ? `Fishing Lv.${item.hobby_level}` : '';
+    
+    if (item.sell_price_stars) {
+      Object.entries(item.sell_price_stars).forEach(([stars, price]) => {
+        priceTags.push(`<span class="price-tag"><i class="fas fa-star"></i> ${stars} ${price}</span>`);
+      });
+    }
+    
+    if (item.locations && item.locations.length > 0) {
+      locations = item.locations;
+    }
+  }
+
+  // Add rarity badge if available
+  if (item.rarity) {
+    badge = `<span class="card-badge">${item.rarity}</span>`;
+  }
+
+  const locationTags = locations.length > 0 
+    ? `<div class="location-tags">${locations.map(loc => `<span class="location-tag">${loc}</span>`).join('')}</div>`
+    : '';
+
+  return `
+    <div class="card">
+      <div class="card-img">
+        ${badge}
+        ${item.image ? `<img src="${item.image}" alt="${title}" onerror="this.src='https://placehold.co/320x180/1a1a2e/666?text=${encodeURIComponent(title)}'; this.onerror=null;">` : `<div style="display: flex; align-items: center; justify-content: center; height: 100%; color: var(--text-dim);"><i class="fas fa-image fa-3x"></i></div>`}
+      </div>
+      <div class="card-body">
+        <div class="card-title">${title}</div>
+        ${subtitle ? `<div class="card-subtitle"><i class="fas fa-info-circle"></i> ${subtitle}</div>` : ''}
+        
+        ${details.length > 0 ? `
+          <div class="card-details">
+            ${details.map(detail => `
+              <div class="detail-row">
+                <span class="detail-label">${detail.label}</span>
+                <span class="detail-value">${detail.value}</span>
+              </div>
+            `).join('')}
+          </div>
+        ` : ''}
+        
+        ${priceTags.length > 0 ? `<div class="price-tags">${priceTags.join('')}</div>` : ''}
+        ${locationTags}
+      </div>
+    </div>
+  `;
+}
+
+// ================================================
+// Filter & Render
+// ================================================
+const contentArea = document.getElementById('contentArea');
+const searchInput = document.getElementById('searchInput');
+let currentTab = 'foods';
+
+function applyFilters() {
+  const searchTerm = searchInput.value.toLowerCase().trim();
+  const activeLevelFilters = Array.from(document.querySelectorAll('.filter-tag.active')).map(tag => tag.dataset.level);
+  
+  let items = DATA[currentTab] || [];
+  
+  // Apply search filter
+  if (searchTerm) {
+    items = items.filter(item => item.name.toLowerCase().includes(searchTerm));
+  }
+  
+  // Apply level filters
+  if (activeLevelFilters.length > 0) {
+    items = items.filter(item => 
+      activeLevelFilters.includes(String(item.hobby_level))
+    );
+  }
+  
+  renderItems(items);
+}
+
+function renderItems(items) {
+  if (items.length === 0) {
+    contentArea.innerHTML = '<div class="empty-state"><i class="fas fa-search"></i> Tidak ditemukan hasil untuk pencarian ini</div>';
+    return;
+  }
+  
+  const html = items.map(item => renderCard(item, currentTab)).join('');
+  contentArea.innerHTML = html;
+}
+
+function renderTab(tab) {
+  currentTab = tab;
+  generateFilterTags(); // Regenerate filters for new tab
+  applyFilters(); // Apply current filters
+}
+
+// ================================================
+// Event Listeners
+// ================================================
+document.querySelectorAll('.tabs button').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelector('.tabs .active')?.classList.remove('active');
+    btn.classList.add('active');
+    renderTab(btn.dataset.tab);
+  });
+});
+
+searchInput.addEventListener('input', applyFilters);
+
+// ================================================
+// Initialize
+// ================================================
+document.addEventListener('DOMContentLoaded', () => {
+  loadData();
+});
+</script>
+
+</body>
+</html>

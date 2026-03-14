@@ -1,0 +1,6954 @@
+{
+  "ingredients": [
+    {
+      "id": 1,
+      "name": "Tomato",
+      "sell_price": null,
+      "buy_price": null,
+      "source": "seed",
+      "image": "images/ingredients/tomato.png",
+      "sell_price_stars": {
+        "1s": 30,
+        "2s": 40,
+        "3s": 50
+      },
+      "locations": [],
+      "hobby_name": "Gardening",
+      "hobby_level": 1
+    },
+    {
+      "id": 2,
+      "name": "Potato",
+      "sell_price": null,
+      "buy_price": null,
+      "source": "seed",
+      "image": "images/ingredients/potato.png",
+      "sell_price_stars": {
+        "1s": 90,
+        "2s": 120,
+        "3s": 150,
+        "4s": 180
+      },
+      "locations": []
+    },
+    {
+      "id": 3,
+      "name": "Wheat",
+      "sell_price": null,
+      "buy_price": null,
+      "source": "seed",
+      "image": "images/ingredients/wheat.png",
+      "sell_price_stars": {
+        "1s": 285,
+        "2s": 381,
+        "3s": 475
+      },
+      "locations": []
+    },
+    {
+      "id": 4,
+      "name": "Carrot",
+      "sell_price": null,
+      "buy_price": null,
+      "source": "seed",
+      "image": "images/ingredients/carrot.png",
+      "sell_price_stars": {
+        "1s": 155,
+        "2s": 207,
+        "3s": 258,
+        "4s": 310
+      },
+      "locations": []
+    },
+    {
+      "id": 5,
+      "name": "Corn",
+      "sell_price": null,
+      "buy_price": null,
+      "source": "seed",
+      "image": "images/ingredients/corn.png",
+      "sell_price_stars": {
+        "1s": 515,
+        "2s": 690,
+        "3s": 860
+      },
+      "locations": []
+    },
+    {
+      "id": 6,
+      "name": "Strawberry",
+      "sell_price": null,
+      "buy_price": null,
+      "source": "seed",
+      "image": "images/ingredients/strawberry.png",
+      "sell_price_stars": {
+        "1s": 375,
+        "2s": 502,
+        "3s": 626
+      },
+      "locations": []
+    },
+    {
+      "id": 7,
+      "name": "Pineapple",
+      "sell_price": null,
+      "buy_price": null,
+      "source": "seed",
+      "image": "images/ingredients/pineapple.png",
+      "sell_price_stars": {
+        "1s": 52,
+        "2s": 69,
+        "3s": 86,
+        "4s": 104
+      },
+      "locations": []
+    },
+    {
+      "id": 8,
+      "name": "Lettuce",
+      "sell_price": null,
+      "buy_price": null,
+      "source": "seed",
+      "image": "images/ingredients/lettuce.png",
+      "sell_price_stars": {
+        "1s": 435,
+        "2s": 582,
+        "3s": 726
+      },
+      "locations": []
+    },
+    {
+      "id": 9,
+      "name": "Apple",
+      "sell_price": 28,
+      "buy_price": null,
+      "source": "wild",
+      "image": "images/ingredients/apple.png",
+      "sell_price_stars": {
+        "1s": 28
+      },
+      "locations": []
+    },
+    {
+      "id": 10,
+      "name": "Mandarin",
+      "sell_price": 28,
+      "buy_price": null,
+      "source": "wild",
+      "image": "images/ingredients/mandarin.png",
+      "sell_price_stars": {
+        "1s": 28,
+        "2s": 42,
+        "3s": 56,
+        "4s": 70,
+        "5s": 84
+      },
+      "locations": []
+    },
+    {
+      "id": 11,
+      "name": "Blueberry",
+      "sell_price": 16,
+      "buy_price": null,
+      "source": "wild",
+      "image": "images/ingredients/blueberry.png",
+      "sell_price_stars": {
+        "1s": 16,
+        "2s": 24,
+        "3s": 32,
+        "4s": 40,
+        "5s": 48
+      },
+      "locations": []
+    },
+    {
+      "id": 12,
+      "name": "Raspberry",
+      "sell_price": 16,
+      "buy_price": null,
+      "source": "wild",
+      "image": "images/ingredients/raspberry.png",
+      "sell_price_stars": {
+        "1s": 26,
+        "2s": 39,
+        "3s": 52,
+        "4s": 65,
+        "5s": 78
+      },
+      "locations": []
+    },
+    {
+      "id": 13,
+      "name": "Grape",
+      "sell_price": null,
+      "buy_price": null,
+      "source": "seed",
+      "image": "images/ingredients/grape.png",
+      "sell_price_stars": {
+        "1s": 480,
+        "2s": 643,
+        "3s": 801
+      },
+      "locations": []
+    },
+    {
+      "id": 14,
+      "name": "Black Truffle",
+      "sell_price": 99,
+      "buy_price": null,
+      "source": "wild",
+      "image": "images/ingredients/black-truffle.png",
+      "locations": [
+        "forest-island"
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Penny Bun",
+      "sell_price": 16,
+      "buy_price": null,
+      "source": "wild",
+      "image": "images/ingredients/penny-bun.png",
+      "locations": []
+    },
+    {
+      "id": 17,
+      "name": "Egg",
+      "sell_price": null,
+      "buy_price": 100,
+      "source": "buy",
+      "image": "images/ingredients/egg.png",
+      "locations": []
+    },
+    {
+      "id": 18,
+      "name": "Milk",
+      "sell_price": null,
+      "buy_price": 50,
+      "source": "buy",
+      "image": "images/ingredients/milk.png",
+      "locations": []
+    },
+    {
+      "id": 19,
+      "name": "Butter",
+      "sell_price": null,
+      "buy_price": 150,
+      "source": "buy",
+      "image": "images/ingredients/butter.png",
+      "locations": []
+    },
+    {
+      "id": 20,
+      "name": "Cheese",
+      "sell_price": null,
+      "buy_price": 100,
+      "source": "buy",
+      "image": "images/ingredients/cheese.png",
+      "locations": []
+    },
+    {
+      "id": 21,
+      "name": "Meat",
+      "sell_price": null,
+      "buy_price": 200,
+      "source": "buy",
+      "image": "images/ingredients/meat.png",
+      "locations": []
+    },
+    {
+      "id": 22,
+      "name": "Any Mushroom",
+      "sell_price": 16,
+      "buy_price": null,
+      "source": "wild",
+      "image": "images/ingredients/mushroom.png",
+      "locations": []
+    },
+    {
+      "id": 23,
+      "name": "Eggplant",
+      "sell_price": null,
+      "buy_price": null,
+      "source": "seed",
+      "image": "images/ingredients/eggplant.png",
+      "sell_price_stars": {
+        "1s": 406,
+        "2s": 544,
+        "3s": 678
+      },
+      "locations": []
+    },
+    {
+      "id": 24,
+      "name": "Coffee Beans",
+      "sell_price": null,
+      "buy_price": 50,
+      "source": "buy",
+      "image": "images/ingredients/coffee-bean.png",
+      "locations": []
+    },
+    {
+      "id": 25,
+      "name": "Any Fish",
+      "sell_price": 150,
+      "buy_price": null,
+      "source": "wild",
+      "image": "images/ingredients/fish.png",
+      "locations": []
+    },
+    {
+      "id": 26,
+      "name": "Cooking Oil",
+      "sell_price": null,
+      "buy_price": 150,
+      "source": "buy",
+      "image": "images/ingredients/cooking-oil.png",
+      "locations": []
+    },
+    {
+      "id": 27,
+      "name": "Button Mushroom",
+      "sell_price": 16,
+      "buy_price": null,
+      "source": "wild",
+      "image": "images/ingredients/cooking-oil.png",
+      "locations": []
+    },
+    {
+      "id": 28,
+      "name": "Oyster Mushroom",
+      "sell_price": 16,
+      "buy_price": null,
+      "source": "wild",
+      "image": "images/ingredients/oyster-mushroom.png",
+      "locations": []
+    },
+    {
+      "id": 29,
+      "name": "Shiitake",
+      "sell_price": 16,
+      "buy_price": null,
+      "source": "wild",
+      "image": "images/ingredients/shiitake.png",
+      "locations": []
+    },
+    {
+      "id": 30,
+      "name": "Blue Sugar",
+      "sell_price": null,
+      "buy_price": null,
+      "source": "buy",
+      "locations": [],
+      "image": "default.png"
+    },
+    {
+      "id": 31,
+      "name": "Cocoa",
+      "sell_price": null,
+      "buy_price": null,
+      "source": "buy",
+      "locations": [],
+      "image": "default.png"
+    },
+    {
+      "id": 32,
+      "name": "Shellfish",
+      "sell_price": 100,
+      "buy_price": null,
+      "source": "wild",
+      "locations": [],
+      "image": "default.png"
+    },
+    {
+      "id": 33,
+      "name": "Green Sugar",
+      "sell_price": null,
+      "buy_price": null,
+      "source": "buy",
+      "locations": [],
+      "image": "default.png"
+    },
+    {
+      "id": 34,
+      "name": "Orange Sugar",
+      "sell_price": null,
+      "buy_price": null,
+      "source": "buy",
+      "locations": [],
+      "image": "default.png"
+    },
+    {
+      "id": 35,
+      "name": "Sugar",
+      "sell_price": null,
+      "buy_price": null,
+      "source": "buy",
+      "locations": [],
+      "image": "default.png"
+    },
+    {
+      "id": 36,
+      "name": "Red Sugar",
+      "sell_price": null,
+      "buy_price": null,
+      "source": "buy",
+      "locations": [],
+      "image": "default.png"
+    },
+    {
+      "id": 37,
+      "name": "Violet Sugar",
+      "sell_price": null,
+      "buy_price": null,
+      "source": "buy",
+      "locations": [],
+      "image": "default.png"
+    },
+    {
+      "id": 38,
+      "name": "Yellow Sugar",
+      "sell_price": null,
+      "buy_price": null,
+      "source": "buy",
+      "locations": [],
+      "image": "default.png"
+    }
+  ],
+  "foods": [
+    {
+      "id": 1,
+      "name": "Afternoon Tea",
+      "ingredients": [],
+      "sell_price": {
+        "1s": 710,
+        "2s": 1065,
+        "3s": 1420,
+        "4s": 2840,
+        "5s": 5680
+      },
+      "image": "images/foods/afternoon-tea.png",
+      "hobby_name": "Cooking",
+      "hobby_level": 7
+    },
+    {
+      "id": 2,
+      "name": "Apple Jam",
+      "ingredients": [
+        {
+          "name": "Apple",
+          "quantity": 4
+        }
+      ],
+      "sell_price": {
+        "1s": 270,
+        "2s": 405,
+        "3s": 540,
+        "4s": 1080,
+        "5s": 2160
+      },
+      "image": "images/foods/apple-jam.png",
+      "hobby_name": "Cooking",
+      "hobby_level": 1
+    },
+    {
+      "id": 3,
+      "name": "Apple Pie",
+      "ingredients": [
+        {
+          "name": "Apple",
+          "quantity": 1
+        },
+        {
+          "name": "Wheat",
+          "quantity": 1
+        },
+        {
+          "name": "Egg",
+          "quantity": 1
+        },
+        {
+          "name": "Butter",
+          "quantity": 1
+        }
+      ],
+      "sell_price": {
+        "1s": 730,
+        "2s": 1095,
+        "3s": 1460,
+        "4s": 2920,
+        "5s": 5840
+      },
+      "image": "images/foods/apple-pie.png",
+      "hobby_name": "Cooking",
+      "hobby_level": 5
+    },
+    {
+      "id": 4,
+      "name": "Baked Eggplant w/ Meat",
+      "ingredients": [
+        {
+          "name": "Eggplant",
+          "quantity": 1
+        },
+        {
+          "name": "Meat",
+          "quantity": 1
+        },
+        {
+          "name": "Cooking Oil",
+          "quantity": 1
+        }
+      ],
+      "sell_price": {
+        "1s": 1230,
+        "2s": 1845,
+        "3s": 2460
+      },
+      "image": "images/foods/baked-eggplant-with-meat.png",
+      "hobby_name": "Cooking",
+      "hobby_level": 9
+    },
+    {
+      "id": 5,
+      "name": "Bizarre Food",
+      "ingredients": [],
+      "sell_price": {
+        "1s": 30
+      },
+      "image": "images/foods/bizarre-food.png",
+      "hobby_name": "Cooking",
+      "hobby_level": 1
+    },
+    {
+      "id": 6,
+      "name": "Black Truffle Cream Pasta",
+      "ingredients": [
+        {
+          "name": "Black Truffle",
+          "quantity": 1
+        },
+        {
+          "name": "Wheat",
+          "quantity": 2
+        },
+        {
+          "name": "Milk",
+          "quantity": 1
+        }
+      ],
+      "sell_price": {
+        "1s": 900,
+        "2s": 1350,
+        "3s": 1800,
+        "4s": 3600,
+        "5s": 7200
+      },
+      "image": "images/foods/black-truffle-cream-pasta.png",
+      "hobby_name": "Cooking",
+      "hobby_level": 3
+    },
+    {
+      "id": 7,
+      "name": "Black Truffle Pie",
+      "ingredients": [
+        {
+          "name": "Black Truffle",
+          "quantity": 2
+        },
+        {
+          "name": "Wheat",
+          "quantity": 1
+        },
+        {
+          "name": "Egg",
+          "quantity": 1
+        }
+      ],
+      "sell_price": {
+        "1s": 830,
+        "2s": 1245,
+        "3s": 1660,
+        "4s": 3320,
+        "5s": 6640
+      },
+      "image": "images/foods/black-truffle-pie.png",
+      "hobby_name": "Cooking",
+      "hobby_level": 1
+    },
+    {
+      "id": 8,
+      "name": "Blue Roll Cake",
+      "ingredients": [
+        {
+          "name": "Egg",
+          "quantity": 1
+        },
+        {
+          "name": "Milk",
+          "quantity": 1
+        },
+        {
+          "name": "Blue Sugar",
+          "quantity": 1
+        }
+      ],
+      "sell_price": {
+        "1s": 570,
+        "2s": 855,
+        "3s": 1140,
+        "4s": 2280
+      },
+      "image": "images/foods/blue-roll-cake.png",
+      "hobby_name": "Cooking",
+      "hobby_level": 1
+    },
+    {
+      "id": 9,
+      "name": "Blueberry Jam",
+      "ingredients": [
+        {
+          "name": "Blueberry",
+          "quantity": 4
+        }
+      ],
+      "sell_price": {
+        "1s": 170,
+        "2s": 255,
+        "3s": 340,
+        "4s": 680,
+        "5s": 1360
+      },
+      "image": "images/foods/blueberry-jam.png",
+      "hobby_name": "Cooking",
+      "hobby_level": 1
+    },
+    {
+      "id": 10,
+      "name": "Button Mushroom Pie",
+      "ingredients": [
+        {
+          "name": "Button Mushroom",
+          "quantity": 2
+        },
+        {
+          "name": "Wheat",
+          "quantity": 1
+        },
+        {
+          "name": "Egg",
+          "quantity": 1
+        }
+      ],
+      "sell_price": {
+        "1s": 500,
+        "2s": 750,
+        "3s": 1000,
+        "4s": 2000
+      },
+      "image": "images/foods/button-mushroom-pie.png",
+      "hobby_name": "Cooking",
+      "hobby_level": 1
+    },
+    {
+      "id": 11,
+      "name": "Candlelight Dinner",
+      "ingredients": [],
+      "sell_price": {
+        "1s": 1760,
+        "2s": 2640,
+        "3s": 3520,
+        "4s": 7040,
+        "5s": 14080
+      },
+      "image": "images/foods/candlelight-dinner.png",
+      "hobby_name": "Cooking",
+      "hobby_level": 9
+    },
+    {
+      "id": 12,
+      "name": "Carrot Cake",
+      "ingredients": [
+        {
+          "name": "Carrot",
+          "quantity": 2
+        },
+        {
+          "name": "Wheat",
+          "quantity": 1
+        },
+        {
+          "name": "Milk",
+          "quantity": 1
+        }
+      ],
+      "sell_price": {
+        "1s": 840,
+        "2s": 1260,
+        "3s": 1680,
+        "4s": 3360,
+        "5s": 6720
+      },
+      "image": "images/foods/carrot-cake.png",
+      "hobby_name": "Cooking",
+      "hobby_level": 5
+    },
+    {
+      "id": 13,
+      "name": "Cheese Cake",
+      "ingredients": [
+        {
+          "name": "Cheese",
+          "quantity": 1
+        },
+        {
+          "name": "Wheat",
+          "quantity": 1
+        },
+        {
+          "name": "Milk",
+          "quantity": 1
+        }
+      ],
+      "sell_price": {
+        "1s": 480,
+        "2s": 720,
+        "3s": 960,
+        "4s": 1920
+      },
+      "image": "images/foods/cheese-cake.png",
+      "hobby_name": "Cooking",
+      "hobby_level": 2
+    },
+    {
+      "id": 14,
+      "name": "Chocolate Sauce",
+      "ingredients": [
+        {
+          "name": "Cocoa",
+          "quantity": 4
+        }
+      ],
+      "sell_price": {},
+      "image": "images/foods/chocolate-sauce.png",
+      "hobby_name": "Cooking",
+      "hobby_level": 1
+    },
+    {
+      "id": 15,
+      "name": "Coffee",
+      "ingredients": [
+        {
+          "name": "Coffee Beans",
+          "quantity": 4
+        }
+      ],
+      "sell_price": {
+        "1s": 290,
+        "2s": 435,
+        "3s": 580,
+        "4s": 1160
+      },
+      "image": "images/foods/coffee.png",
+      "hobby_name": "Cooking",
+      "hobby_level": 1
+    },
+    {
+      "id": 16,
+      "name": "Coffee Latte",
+      "ingredients": [
+        {
+          "name": "Coffee Beans",
+          "quantity": 2
+        },
+        {
+          "name": "Milk",
+          "quantity": 2
+        }
+      ],
+      "sell_price": {
+        "1s": 300,
+        "2s": 450,
+        "3s": 600,
+        "4s": 1200,
+        "5s": 2400
+      },
+      "image": "images/foods/coffee-latte.png",
+      "hobby_name": "Cooking",
+      "hobby_level": 1
+    },
+    {
+      "id": 17,
+      "name": "Corn Soup",
+      "ingredients": [
+        {
+          "name": "Milk",
+          "quantity": 1
+        },
+        {
+          "name": "Butter",
+          "quantity": 1
+        },
+        {
+          "name": "Corn",
+          "quantity": 2
+        }
+      ],
+      "sell_price": {
+        "1s": 1340,
+        "2s": 2010,
+        "3s": 2680,
+        "4s": 5360
+      },
+      "image": "images/foods/corn-soup.png",
+      "hobby_name": "Cooking",
+      "hobby_level": 5
+    },
+    {
+      "id": 18,
+      "name": "Crayfish Sashimi",
+      "ingredients": [
+        {
+          "name": "Shellfish",
+          "quantity": 3
+        },
+        {
+          "name": "Lettuce",
+          "quantity": 1
+        }
+      ],
+      "sell_price": {
+        "1s": 850,
+        "2s": 1275,
+        "3s": 1700,
+        "4s": 3400
+      },
+      "image": "images/foods/crayfish-sashimi.png",
+      "hobby_name": "Cooking",
+      "hobby_level": 8
+    },
+    {
+      "id": 19,
+      "name": "Deluxe Seafood Platter",
+      "ingredients": [
+        {
+          "name": "Shellfish",
+          "quantity": 2
+        },
+        {
+          "name": "Any Fish",
+          "quantity": 2
+        }
+      ],
+      "sell_price": {
+        "1s": 410,
+        "2s": 615,
+        "3s": 820,
+        "4s": 1640,
+        "5s": 3280
+      },
+      "image": "images/foods/deluxe-seafood-platter.png",
+      "hobby_name": "Cooking",
+      "hobby_level": 6
+    },
+    {
+      "id": 20,
+      "name": "Fish N Chips",
+      "ingredients": [
+        {
+          "name": "Any Fish",
+          "quantity": 2
+        },
+        {
+          "name": "Potato",
+          "quantity": 2
+        }
+      ],
+      "sell_price": {
+        "1s": 310,
+        "2s": 465,
+        "3s": 620,
+        "4s": 1240,
+        "5s": 2480
+      },
+      "image": "images/foods/fish-n-chips.png",
+      "hobby_name": "Cooking",
+      "hobby_level": 1
+    },
+    {
+      "id": 21,
+      "name": "Grape Jam",
+      "ingredients": [
+        {
+          "name": "Grape",
+          "quantity": 4
+        }
+      ],
+      "sell_price": {
+        "1s": 2020,
+        "2s": 3030,
+        "3s": 4040,
+        "4s": 16160
+      },
+      "image": "images/foods/grape-jam.png",
+      "hobby_name": "Cooking",
+      "hobby_level": 1
+    },
+    {
+      "id": 22,
+      "name": "Green Roll Cake",
+      "ingredients": [
+        {
+          "name": "Egg",
+          "quantity": 1
+        },
+        {
+          "name": "Milk",
+          "quantity": 1
+        },
+        {
+          "name": "Green Sugar",
+          "quantity": 2
+        }
+      ],
+      "sell_price": {
+        "1s": 670,
+        "2s": 1005,
+        "3s": 1340,
+        "4s": 2680
+      },
+      "image": "images/foods/green-roll-cake.png",
+      "hobby_name": "Cooking",
+      "hobby_level": 1
+    },
+    {
+      "id": 23,
+      "name": "Grilled Button Mushroom",
+      "ingredients": [
+        {
+          "name": "Button Mushroom",
+          "quantity": 4
+        }
+      ],
+      "sell_price": {
+        "1s": 180,
+        "2s": 270,
+        "3s": 360,
+        "4s": 720,
+        "5s": 1440
+      },
+      "image": "images/foods/grilled-button-mushroom.png",
+      "hobby_name": "Cooking",
+      "hobby_level": 1
+    },
+    {
+      "id": 24,
+      "name": "House Salad",
+      "ingredients": [
+        {
+          "name": "Tomato",
+          "quantity": 2
+        }
+      ],
+      "sell_price": {
+        "1s": 90,
+        "2s": 135,
+        "3s": 180,
+        "4s": 360
+      },
+      "image": "images/foods/house-salad.png",
+      "hobby_name": "Cooking",
+      "hobby_level": 1
+    },
+    {
+      "id": 25,
+      "name": "Indigo Roll Cake",
+      "ingredients": [
+        {
+          "name": "Egg",
+          "quantity": 1
+        },
+        {
+          "name": "Milk",
+          "quantity": 1
+        }
+      ],
+      "sell_price": {
+        "1s": 570,
+        "2s": 855,
+        "3s": 1140,
+        "4s": 2280,
+        "5s": 4560
+      },
+      "image": "images/foods/indigo-roll-cake.png",
+      "hobby_name": "Cooking",
+      "hobby_level": 1
+    },
+    {
+      "id": 26,
+      "name": "Mandarin Jam",
+      "ingredients": [
+        {
+          "name": "Mandarin",
+          "quantity": 4
+        }
+      ],
+      "sell_price": {
+        "1s": 270,
+        "2s": 405,
+        "3s": 540,
+        "4s": 1080,
+        "5s": 2160
+      },
+      "image": "images/foods/mandarin-jam.png",
+      "hobby_name": "Cooking",
+      "hobby_level": 1
+    },
+    {
+      "id": 27,
+      "name": "Meat Burger",
+      "ingredients": [
+        {
+          "name": "Wheat",
+          "quantity": 1
+        },
+        {
+          "name": "Lettuce",
+          "quantity": 1
+        },
+        {
+          "name": "Meat",
+          "quantity": 1
+        }
+      ],
+      "sell_price": {
+        "1s": 1350,
+        "2s": 2025,
+        "3s": 2700,
+        "4s": 5400,
+        "5s": 10800
+      },
+      "image": "images/foods/meat-burger.png",
+      "hobby_name": "Cooking",
+      "hobby_level": 8
+    },
+    {
+      "id": 28,
+      "name": "Meat Sauce Pasta",
+      "ingredients": [
+        {
+          "name": "Meat",
+          "quantity": 1
+        },
+        {
+          "name": "Wheat",
+          "quantity": 1
+        },
+        {
+          "name": "Tomato",
+          "quantity": 1
+        },
+        {
+          "name": "Cheese",
+          "quantity": 1
+        }
+      ],
+      "sell_price": {
+        "1s": 670,
+        "2s": 1005,
+        "3s": 1340,
+        "4s": 2680,
+        "5s": 5360
+      },
+      "image": "images/foods/meat-sauce-pasta.png",
+      "hobby_name": "Cooking",
+      "hobby_level": 4
+    },
+    {
+      "id": 29,
+      "name": "Mixed Jam",
+      "ingredients": [
+        {
+          "name": "Raspberry",
+          "quantity": 1
+        },
+        {
+          "name": "Blueberry",
+          "quantity": 1
+        },
+        {
+          "name": "Apple",
+          "quantity": 1
+        },
+        {
+          "name": "Mandarin",
+          "quantity": 1
+        }
+      ],
+      "sell_price": {
+        "1s": 160,
+        "2s": 240,
+        "3s": 320,
+        "4s": 640,
+        "5s": 1280
+      },
+      "image": "images/foods/mixed-jam.png",
+      "hobby_name": "Cooking",
+      "hobby_level": 1
+    },
+    {
+      "id": 30,
+      "name": "Mushroom Pie",
+      "ingredients": [
+        {
+          "name": "Any Mushroom",
+          "quantity": 2
+        },
+        {
+          "name": "Wheat",
+          "quantity": 1
+        },
+        {
+          "name": "Egg",
+          "quantity": 1
+        }
+      ],
+      "sell_price": {
+        "1s": 500,
+        "2s": 750,
+        "3s": 1000,
+        "4s": 2000
+      },
+      "image": "images/foods/mushroom-pie.png",
+      "hobby_name": "Cooking",
+      "hobby_level": 1
+    },
+    {
+      "id": 31,
+      "name": "Orange Roll Cake",
+      "ingredients": [
+        {
+          "name": "Egg",
+          "quantity": 1
+        },
+        {
+          "name": "Milk",
+          "quantity": 1
+        },
+        {
+          "name": "Orange Sugar",
+          "quantity": 2
+        }
+      ],
+      "sell_price": {
+        "1s": 670,
+        "2s": 1005,
+        "3s": 1340,
+        "4s": 2680
+      },
+      "image": "images/foods/orange-roll-cake.png",
+      "hobby_name": "Cooking",
+      "hobby_level": 1
+    },
+    {
+      "id": 32,
+      "name": "Original Roll Cake",
+      "ingredients": [
+        {
+          "name": "Egg",
+          "quantity": 1
+        },
+        {
+          "name": "Milk",
+          "quantity": 1
+        },
+        {
+          "name": "Sugar",
+          "quantity": 2
+        }
+      ],
+      "sell_price": {
+        "1s": 550,
+        "2s": 825,
+        "3s": 1100,
+        "4s": 2200,
+        "5s": 4400
+      },
+      "image": "images/foods/original-roll-cake.png",
+      "hobby_name": "Cooking",
+      "hobby_level": 1
+    },
+    {
+      "id": 33,
+      "name": "Oyster Mushroom Pie",
+      "ingredients": [
+        {
+          "name": "Oyster Mushroom",
+          "quantity": 2
+        },
+        {
+          "name": "Wheat",
+          "quantity": 1
+        },
+        {
+          "name": "Egg",
+          "quantity": 1
+        }
+      ],
+      "sell_price": {
+        "1s": 500,
+        "2s": 750,
+        "3s": 1000,
+        "4s": 2000
+      },
+      "image": "images/foods/oyster-mushroom-pie.png",
+      "hobby_name": "Cooking",
+      "hobby_level": 1
+    },
+    {
+      "id": 34,
+      "name": "Penny Bun Pie",
+      "ingredients": [
+        {
+          "name": "Penny Bun",
+          "quantity": 2
+        },
+        {
+          "name": "Wheat",
+          "quantity": 1
+        },
+        {
+          "name": "Egg",
+          "quantity": 1
+        }
+      ],
+      "sell_price": {
+        "1s": 500,
+        "2s": 750,
+        "3s": 1000,
+        "4s": 2000
+      },
+      "image": "images/foods/penny-bun-pie.png",
+      "hobby_name": "Cooking",
+      "hobby_level": 1
+    },
+    {
+      "id": 35,
+      "name": "Picnic Set",
+      "ingredients": [],
+      "sell_price": {
+        "1s": 2260,
+        "2s": 3390,
+        "3s": 4520,
+        "4s": 9040,
+        "5s": 18080
+      },
+      "image": "images/foods/picnic-set.png",
+      "hobby_name": "Cooking",
+      "hobby_level": 7
+    },
+    {
+      "id": 36,
+      "name": "Pineapple Jam",
+      "ingredients": [
+        {
+          "name": "Pineapple",
+          "quantity": 4
+        }
+      ],
+      "sell_price": {
+        "1s": 280,
+        "2s": 420,
+        "3s": 560,
+        "4s": 1120,
+        "5s": 2240
+      },
+      "image": "images/foods/pineapple-jam.png",
+      "hobby_name": "Cooking",
+      "hobby_level": 1
+    },
+    {
+      "id": 37,
+      "name": "Raspberry Jam",
+      "ingredients": [
+        {
+          "name": "Raspberry",
+          "quantity": 4
+        }
+      ],
+      "sell_price": {
+        "1s": 250,
+        "2s": 375,
+        "3s": 500,
+        "4s": 1000,
+        "5s": 2000
+      },
+      "image": "images/foods/raspberry-jam.png",
+      "hobby_name": "Cooking",
+      "hobby_level": 1
+    },
+    {
+      "id": 38,
+      "name": "Red Roll Cake",
+      "ingredients": [
+        {
+          "name": "Egg",
+          "quantity": 1
+        },
+        {
+          "name": "Milk",
+          "quantity": 1
+        },
+        {
+          "name": "Red Sugar",
+          "quantity": 2
+        }
+      ],
+      "sell_price": {
+        "1s": 670,
+        "2s": 1005,
+        "3s": 1340,
+        "4s": 2680
+      },
+      "image": "images/foods/red-roll-cake.png",
+      "hobby_name": "Cooking",
+      "hobby_level": 1
+    },
+    {
+      "id": 39,
+      "name": "Rustic Ratatouille",
+      "ingredients": [
+        {
+          "name": "Tomato",
+          "quantity": 1
+        },
+        {
+          "name": "Potato",
+          "quantity": 1
+        },
+        {
+          "name": "Lettuce",
+          "quantity": 1
+        }
+      ],
+      "sell_price": {
+        "1s": 640,
+        "2s": 960,
+        "3s": 1280,
+        "4s": 2560,
+        "5s": 5120
+      },
+      "image": "images/foods/rustic-ratatouille.png",
+      "hobby_name": "Cooking",
+      "hobby_level": 3
+    },
+    {
+      "id": 40,
+      "name": "Seafood Pizza",
+      "ingredients": [
+        {
+          "name": "Cheese",
+          "quantity": 1
+        },
+        {
+          "name": "Jam",
+          "quantity": 1
+        },
+        {
+          "name": "Wheat",
+          "quantity": 1
+        },
+        {
+          "name": "Any Fish",
+          "quantity": 1
+        }
+      ],
+      "sell_price": {
+        "1s": 780,
+        "2s": 1170,
+        "3s": 1560,
+        "4s": 3120
+      },
+      "image": "images/foods/seafood-pizza.png",
+      "hobby_name": "Cooking",
+      "hobby_level": 4
+    },
+    {
+      "id": 41,
+      "name": "Seafood Risotto",
+      "ingredients": [
+        {
+          "name": "Shellfish",
+          "quantity": 2
+        },
+        {
+          "name": "Wheat",
+          "quantity": 1
+        },
+        {
+          "name": "Tomato",
+          "quantity": 1
+        }
+      ],
+      "sell_price": {
+        "1s": 490,
+        "2s": 735,
+        "3s": 980,
+        "4s": 1960
+      },
+      "image": "images/foods/seafood-risotto.png",
+      "hobby_name": "Cooking",
+      "hobby_level": 3
+    },
+    {
+      "id": 42,
+      "name": "Shiitake Pie",
+      "ingredients": [
+        {
+          "name": "Shiitake",
+          "quantity": 2
+        },
+        {
+          "name": "Wheat",
+          "quantity": 1
+        },
+        {
+          "name": "Egg",
+          "quantity": 1
+        }
+      ],
+      "sell_price": {
+        "1s": 500,
+        "2s": 750,
+        "3s": 1000,
+        "4s": 2000
+      },
+      "image": "images/foods/shiitake-pie.png",
+      "hobby_name": "Cooking",
+      "hobby_level": 1
+    },
+    {
+      "id": 43,
+      "name": "Smoked Fish Bagel",
+      "ingredients": [
+        {
+          "name": "Any Fish",
+          "quantity": 1
+        },
+        {
+          "name": "Cheese",
+          "quantity": 1
+        },
+        {
+          "name": "Carrot",
+          "quantity": 1
+        },
+        {
+          "name": "Wheat",
+          "quantity": 1
+        }
+      ],
+      "sell_price": {
+        "1s": 520,
+        "2s": 780,
+        "3s": 1040,
+        "4s": 2080
+      },
+      "image": "images/foods/smoked-fish-bagel.png",
+      "hobby_name": "Cooking",
+      "hobby_level": 2
+    },
+    {
+      "id": 44,
+      "name": "Strawberry Jam",
+      "ingredients": [
+        {
+          "name": "Strawberry",
+          "quantity": 4
+        }
+      ],
+      "sell_price": {
+        "1s": 1580,
+        "2s": 2370,
+        "3s": 3160,
+        "4s": 6320,
+        "5s": 12640
+      },
+      "image": "images/foods/strawberry-jam.png",
+      "hobby_name": "Cooking",
+      "hobby_level": 1
+    },
+    {
+      "id": 45,
+      "name": "Tiramisu",
+      "ingredients": [
+        {
+          "name": "Coffee Beans",
+          "quantity": 1
+        },
+        {
+          "name": "Egg",
+          "quantity": 1
+        },
+        {
+          "name": "Milk",
+          "quantity": 1
+        },
+        {
+          "name": "Cheese",
+          "quantity": 1
+        }
+      ],
+      "sell_price": {
+        "1s": 530,
+        "2s": 795,
+        "3s": 1060,
+        "4s": 2120,
+        "5s": 4240
+      },
+      "image": "images/foods/tiramisu.png",
+      "hobby_name": "Cooking",
+      "hobby_level": 6
+    },
+    {
+      "id": 46,
+      "name": "Tomato Sauce",
+      "ingredients": [
+        {
+          "name": "Tomato",
+          "quantity": 4
+        }
+      ],
+      "sell_price": {
+        "1s": 180,
+        "2s": 270,
+        "3s": 360,
+        "4s": 720,
+        "5s": 1440
+      },
+      "image": "images/foods/tomato-sauce.png",
+      "hobby_name": "Cooking",
+      "hobby_level": 1
+    },
+    {
+      "id": 47,
+      "name": "Violet Roll Cake",
+      "ingredients": [
+        {
+          "name": "Egg",
+          "quantity": 1
+        },
+        {
+          "name": "Milk",
+          "quantity": 1
+        },
+        {
+          "name": "Violet Sugar",
+          "quantity": 2
+        }
+      ],
+      "sell_price": {
+        "1s": 570,
+        "2s": 855,
+        "3s": 1140,
+        "4s": 2280
+      },
+      "image": "images/foods/violet-roll-cake.png",
+      "hobby_name": "Cooking",
+      "hobby_level": 1
+    },
+    {
+      "id": 48,
+      "name": "Yellow Roll Cake",
+      "ingredients": [
+        {
+          "name": "Egg",
+          "quantity": 1
+        },
+        {
+          "name": "Milk",
+          "quantity": 1
+        },
+        {
+          "name": "Yellow Sugar",
+          "quantity": 2
+        }
+      ],
+      "sell_price": {
+        "1s": 670,
+        "2s": 1005,
+        "3s": 1340,
+        "4s": 2680
+      },
+      "image": "images/foods/yellow-roll-cake.png",
+      "hobby_name": "Cooking",
+      "hobby_level": 1
+    },
+    {
+      "id": 49,
+      "name": "Bizarre Drink",
+      "ingredients": [],
+      "sell_price": {
+        "1s": 30
+      },
+      "image": "images/foods/bizarre-drink.png",
+      "hobby_name": "Cooking",
+      "hobby_level": 1
+    },
+    {
+      "id": 50,
+      "name": "Grilled Mushroom",
+      "ingredients": [
+        {
+          "name": "Any Mushroom",
+          "quantity": 4
+        }
+      ],
+      "sell_price": {
+        "1s": 180,
+        "2s": 270,
+        "3s": 360,
+        "4s": 720,
+        "5s": 1437
+      },
+      "image": "default.png",
+      "hobby_name": "Cooking",
+      "hobby_level": 1
+    },
+    {
+      "id": 51,
+      "name": "Grilled Oyster Mushroom",
+      "ingredients": [
+        {
+          "name": "Oyster Mushroom",
+          "quantity": 4
+        }
+      ],
+      "sell_price": {
+        "1s": 180,
+        "2s": 270,
+        "3s": 360,
+        "4s": 720,
+        "5s": 1438
+      },
+      "image": "default.png",
+      "hobby_name": "Cooking",
+      "hobby_level": 1
+    },
+    {
+      "id": 52,
+      "name": "Grilled Penny Bun",
+      "ingredients": [
+        {
+          "name": "Penny Bun",
+          "quantity": 4
+        }
+      ],
+      "sell_price": {
+        "1s": 180,
+        "2s": 270,
+        "3s": 360,
+        "4s": 720,
+        "5s": 1440
+      },
+      "image": "default.png",
+      "hobby_name": "Cooking",
+      "hobby_level": 1
+    },
+    {
+      "id": 53,
+      "name": "Grilled Shiitake Mushroom",
+      "ingredients": [
+        {
+          "name": "Shiitake",
+          "quantity": 4
+        }
+      ],
+      "sell_price": {
+        "1s": 180,
+        "2s": 270,
+        "3s": 360,
+        "4s": 720,
+        "5s": 1440
+      },
+      "image": "default.png",
+      "hobby_name": "Cooking",
+      "hobby_level": 1
+    }
+  ],
+  "seeds": [
+    {
+      "id": 1,
+      "name": "Avocado Seed",
+      "price": 180,
+      "image": "images/seeds/avocado-seed.png",
+      "growth_time": null,
+      "hobby_name": "Cooking",
+      "hobby_level": 13,
+      "sell_price": null
+    },
+    {
+      "id": 2,
+      "name": "Cacao Seed",
+      "price": 110,
+      "image": "images/seeds/cacao-seed.png",
+      "growth_time": null,
+      "hobby_name": "Cooking",
+      "hobby_level": 12,
+      "sell_price": null
+    },
+    {
+      "id": 3,
+      "name": "Carrot Seed",
+      "price": 50,
+      "image": "images/seeds/carrot-seed.png",
+      "growth_time": 120,
+      "hobby_name": "Cooking",
+      "hobby_level": 5,
+      "sell_price": 25
+    },
+    {
+      "id": 4,
+      "name": "Corn Seed",
+      "price": 170,
+      "image": "images/seeds/corn-seed.png",
+      "growth_time": 720,
+      "hobby_name": "Cooking",
+      "hobby_level": 6,
+      "sell_price": null
+    },
+    {
+      "id": 5,
+      "name": "Eggplant Seed",
+      "price": 135,
+      "image": "images/seeds/eggplant-seed.png",
+      "growth_time": null,
+      "hobby_name": "Cooking",
+      "hobby_level": 8,
+      "sell_price": null
+    },
+    {
+      "id": 6,
+      "name": "Grape Seed",
+      "price": 160,
+      "image": "images/seeds/grape-seed.png",
+      "growth_time": 600,
+      "hobby_name": "Cooking",
+      "hobby_level": 7,
+      "sell_price": null
+    },
+    {
+      "id": 7,
+      "name": "Lettuce Seed",
+      "price": 145,
+      "image": "images/seeds/lettuce-seed.png",
+      "growth_time": 480,
+      "hobby_name": "Cooking",
+      "hobby_level": 3,
+      "sell_price": 72
+    },
+    {
+      "id": 8,
+      "name": "Pineapple Seed",
+      "price": 15,
+      "image": "images/seeds/pineapple-seed.png",
+      "growth_time": 30,
+      "hobby_name": "Cooking",
+      "hobby_level": 4,
+      "sell_price": 7
+    },
+    {
+      "id": 9,
+      "name": "Potatoes Seed",
+      "price": 30,
+      "image": "images/seeds/potatoes-seed.png",
+      "growth_time": 60,
+      "hobby_name": "Cooking",
+      "hobby_level": 1,
+      "sell_price": 15
+    },
+    {
+      "id": 10,
+      "name": "Strawberry Seed",
+      "price": 125,
+      "image": "images/seeds/strawberry-seed.png",
+      "growth_time": 360,
+      "hobby_name": "Cooking",
+      "hobby_level": 6,
+      "sell_price": null
+    },
+    {
+      "id": 11,
+      "name": "Tea Tree Seed",
+      "price": 25,
+      "image": "images/seeds/tea-tree-seed.png",
+      "growth_time": null,
+      "hobby_name": "Cooking",
+      "hobby_level": 11,
+      "sell_price": null
+    },
+    {
+      "id": 12,
+      "name": "Tomato Seed",
+      "price": 10,
+      "image": "images/seeds/tomato-seed.png",
+      "growth_time": 15,
+      "hobby_name": "Cooking",
+      "hobby_level": 1,
+      "sell_price": 5
+    },
+    {
+      "id": 13,
+      "name": "Wheat Seed",
+      "price": 95,
+      "image": "images/seeds/wheat-seed.png",
+      "growth_time": 240,
+      "hobby_name": "Cooking",
+      "hobby_level": 2,
+      "sell_price": 47
+    }
+  ],
+  "insects": [
+    {
+      "id": 1,
+      "name": "Alpine Longhorn Beetle",
+      "sell_price": {
+        "1s": 165,
+        "2s": 247,
+        "3s": 330,
+        "4s": 660,
+        "5s": 1320
+      },
+      "locations": [
+        "forest-island"
+      ],
+      "image": "images/insects/alpine-longhorn-beetle.png",
+      "weather": [
+        "Rainy",
+        "Rainbow"
+      ],
+      "time": [
+        "3",
+        "1",
+        "2",
+        "4"
+      ],
+      "hobby_name": "Bug Catching",
+      "hobby_level": 5
+    },
+    {
+      "id": 2,
+      "name": "Amethyst Flower Beetle",
+      "sell_price": {
+        "1s": 165,
+        "2s": 247,
+        "3s": 330,
+        "4s": 660,
+        "5s": 1320
+      },
+      "locations": [
+        "home-rocks"
+      ],
+      "image": "images/insects/amethyst-flower-beetle.png",
+      "weather": [
+        "Rainy"
+      ],
+      "time": [
+        "5"
+      ],
+      "hobby_name": "Bug Catching",
+      "hobby_level": 2
+    },
+    {
+      "id": 3,
+      "name": "Ant",
+      "sell_price": {
+        "1s": 220,
+        "2s": 330,
+        "3s": 440,
+        "4s": 880
+      },
+      "locations": [
+        "fishing-village-square"
+      ],
+      "image": "images/insects/ant.png",
+      "weather": [
+        "Sunny",
+        "Rainy",
+        "Rainbow"
+      ],
+      "time": [
+        "5"
+      ],
+      "hobby_name": "Bug Catching",
+      "hobby_level": 3
+    },
+    {
+      "id": 4,
+      "name": "Apollo",
+      "sell_price": {
+        "1s": 30,
+        "2s": 45,
+        "3s": 60,
+        "4s": 120,
+        "5s": 240
+      },
+      "locations": [
+        "bait-the-insects-event"
+      ],
+      "image": "images/insects/apollo.png",
+      "weather": [
+        "Sunny"
+      ],
+      "time": [
+        "3",
+        "1",
+        "2",
+        "4"
+      ],
+      "hobby_name": "Bug Catching",
+      "hobby_level": 1
+    },
+    {
+      "id": 5,
+      "name": "Asian Lady Beetle",
+      "sell_price": {
+        "1s": 165,
+        "2s": 247,
+        "3s": 330,
+        "4s": 660,
+        "5s": 1320
+      },
+      "locations": [
+        "forest-deer-tower"
+      ],
+      "image": "images/insects/asian-lady-beetle.png",
+      "weather": [
+        "Rainy"
+      ],
+      "time": [
+        "1",
+        "2",
+        "4"
+      ],
+      "hobby_name": "Bug Catching",
+      "hobby_level": 5
+    },
+    {
+      "id": 6,
+      "name": "Asparagus Beetle",
+      "sell_price": {
+        "1s": 55,
+        "2s": 82,
+        "3s": 110,
+        "4s": 220
+      },
+      "locations": [
+        "flower-field"
+      ],
+      "image": "images/insects/asparagus-beetle.png",
+      "weather": [
+        "Sunny"
+      ],
+      "time": [
+        "3",
+        "1",
+        "2",
+        "4"
+      ],
+      "hobby_name": "Bug Catching",
+      "hobby_level": 1
+    },
+    {
+      "id": 7,
+      "name": "Bagworm Moth",
+      "sell_price": {
+        "1s": 440,
+        "2s": 660
+      },
+      "locations": [
+        "forest-deer-tower"
+      ],
+      "image": "images/insects/bagworm-moth.png",
+      "weather": [
+        "Sunny"
+      ],
+      "time": [
+        "2",
+        "4"
+      ],
+      "hobby_name": "Bug Catching",
+      "hobby_level": 10
+    },
+    {
+      "id": 8,
+      "name": "Beautiful Demoiselle",
+      "sell_price": {
+        "1s": 110,
+        "2s": 165,
+        "3s": 220,
+        "4s": 440,
+        "5s": 880
+      },
+      "locations": [
+        "forest-lake-shore"
+      ],
+      "image": "images/insects/beautiful-demoiselle.png",
+      "weather": [
+        "Rainy"
+      ],
+      "time": [
+        "3",
+        "1",
+        "2",
+        "4"
+      ],
+      "hobby_name": "Bug Catching",
+      "hobby_level": 6
+    },
+    {
+      "id": 9,
+      "name": "Beautiful Leopard",
+      "sell_price": {
+        "1s": 90,
+        "2s": 135,
+        "3s": 180,
+        "4s": 360,
+        "5s": 720
+      },
+      "locations": [
+        "fishing-village-wharf"
+      ],
+      "image": "images/insects/beautiful-leopard.png",
+      "weather": [
+        "Rainy"
+      ],
+      "time": [
+        "3",
+        "2",
+        "4"
+      ],
+      "hobby_name": "Bug Catching",
+      "hobby_level": 4
+    },
+    {
+      "id": 10,
+      "name": "Blue Morpho",
+      "sell_price": {
+        "1s": 150,
+        "2s": 225,
+        "3s": 300,
+        "4s": 600,
+        "5s": 1200
+      },
+      "locations": [
+        "spirit-oak-pine-forest"
+      ],
+      "image": "images/insects/blue-morpho.png",
+      "weather": [
+        "Sunny"
+      ],
+      "time": [
+        "3",
+        "1",
+        "2"
+      ],
+      "hobby_name": "Bug Catching",
+      "hobby_level": 1
+    },
+    {
+      "id": 11,
+      "name": "Blue Shieldbug",
+      "sell_price": {
+        "1s": 110,
+        "2s": 165,
+        "3s": 220,
+        "4s": 440,
+        "5s": 880
+      },
+      "locations": [
+        "lighthouse"
+      ],
+      "image": "images/insects/blue-shieldbug.png",
+      "weather": [
+        "Sunny",
+        "Rainy",
+        "Rainbow"
+      ],
+      "time": [
+        "3",
+        "1"
+      ],
+      "hobby_name": "Bug Catching",
+      "hobby_level": 6
+    },
+    {
+      "id": 12,
+      "name": "Bumblebee",
+      "sell_price": {
+        "1s": 110,
+        "2s": 165,
+        "3s": 220,
+        "4s": 440,
+        "5s": 880
+      },
+      "locations": [
+        "flower-field"
+      ],
+      "image": "images/insects/bumblebee.png",
+      "weather": [
+        "Sunny",
+        "Rainy",
+        "Rainbow"
+      ],
+      "time": [
+        "5"
+      ],
+      "hobby_name": "Bug Catching",
+      "hobby_level": 2
+    },
+    {
+      "id": 13,
+      "name": "Cabbage White",
+      "sell_price": {
+        "1s": 30,
+        "2s": 45,
+        "3s": 60,
+        "4s": 120,
+        "5s": 240
+      },
+      "locations": [
+        "fishing-village"
+      ],
+      "image": "images/insects/cabbage-white.png",
+      "weather": [
+        "Sunny",
+        "Rainy",
+        "Rainbow"
+      ],
+      "time": [
+        "5"
+      ],
+      "hobby_name": "Bug Catching",
+      "hobby_level": 1
+    },
+    {
+      "id": 14,
+      "name": "Cerulean Carpenter",
+      "sell_price": {
+        "1s": 440,
+        "2s": 660
+      },
+      "locations": [
+        "fishing-village-square"
+      ],
+      "image": "images/insects/cerulean-carpenter.png",
+      "weather": [
+        "Rainbow"
+      ],
+      "time": [
+        "4",
+        "2"
+      ],
+      "hobby_name": "Bug Catching",
+      "hobby_level": 9
+    },
+    {
+      "id": 15,
+      "name": "Chestnut Tiger",
+      "sell_price": {
+        "1s": 150,
+        "2s": 225,
+        "3s": 300,
+        "4s": 600,
+        "5s": 1200
+      },
+      "locations": [
+        "bait-the-insects-event"
+      ],
+      "image": "images/insects/chestnut-tiger.png",
+      "weather": [
+        "Sunny",
+        "Rainy",
+        "Rainbow"
+      ],
+      "time": [
+        "5"
+      ],
+      "hobby_name": "Bug Catching",
+      "hobby_level": 7
+    },
+    {
+      "id": 16,
+      "name": "Cicada",
+      "sell_price": {
+        "1s": 220,
+        "2s": 330,
+        "3s": 440,
+        "4s": 880
+      },
+      "locations": [
+        "spirit-oak-pine-forest"
+      ],
+      "image": "images/insects/cicada.png",
+      "weather": [
+        "Sunny",
+        "Rainy",
+        "Rainbow"
+      ],
+      "time": [
+        "1",
+        "4"
+      ],
+      "hobby_name": "Bug Catching",
+      "hobby_level": 4
+    },
+    {
+      "id": 17,
+      "name": "Comet Moth",
+      "sell_price": {
+        "1s": 240,
+        "2s": 360,
+        "3s": 480,
+        "4s": 960
+      },
+      "locations": [
+        "suburbs"
+      ],
+      "image": "images/insects/comet-moth.png",
+      "weather": [
+        "Sunny",
+        "Rainbow"
+      ],
+      "time": [
+        "4",
+        "2"
+      ],
+      "hobby_name": "Bug Catching",
+      "hobby_level": 8
+    },
+    {
+      "id": 18,
+      "name": "Common Blue Butterfly",
+      "sell_price": {
+        "1s": 105,
+        "2s": 157,
+        "3s": 210,
+        "4s": 300
+      },
+      "locations": [
+        "central-area"
+      ],
+      "image": "images/insects/common-blue-butterfly.png",
+      "weather": [
+        "Sunny",
+        "Rainy",
+        "Rainbow"
+      ],
+      "time": [
+        "5"
+      ],
+      "hobby_name": "Bug Catching",
+      "hobby_level": 2
+    },
+    {
+      "id": 19,
+      "name": "Common Brimstone",
+      "sell_price": {
+        "1s": 30,
+        "2s": 45,
+        "3s": 60,
+        "4s": 120,
+        "5s": 240
+      },
+      "locations": [
+        "suburbs"
+      ],
+      "image": "images/insects/common-brimstone.png",
+      "weather": [
+        "Sunny",
+        "Rainy",
+        "Rainbow"
+      ],
+      "time": [
+        "5"
+      ],
+      "hobby_name": "Bug Catching",
+      "hobby_level": 1
+    },
+    {
+      "id": 20,
+      "name": "Common Whitetail",
+      "sell_price": {
+        "1s": 75,
+        "2s": 112,
+        "3s": 150,
+        "4s": 300,
+        "5s": 600
+      },
+      "locations": [
+        "river-bank"
+      ],
+      "image": "images/insects/common-whitetail.png",
+      "weather": [
+        "Rainy",
+        "Rainbow"
+      ],
+      "time": [
+        "5"
+      ],
+      "hobby_name": "Bug Catching",
+      "hobby_level": 4
+    },
+    {
+      "id": 21,
+      "name": "Conehead Mantis",
+      "sell_price": {
+        "1s": 515
+      },
+      "locations": [
+        "onsen-mountain-ruins"
+      ],
+      "image": "images/insects/conehead-mantis.png",
+      "weather": [
+        "Rainy",
+        "Rainbow"
+      ],
+      "time": [
+        "1",
+        "2"
+      ],
+      "hobby_name": "Bug Catching",
+      "hobby_level": 9
+    },
+    {
+      "id": 22,
+      "name": "Crimson Marsh Glider",
+      "sell_price": {
+        "1s": 185,
+        "2s": 277,
+        "3s": 370
+      },
+      "locations": [
+        "onsen-mountain"
+      ],
+      "image": "images/insects/crimson-marsh-glider.png",
+      "weather": [
+        "Rainbow"
+      ],
+      "time": [
+        "4",
+        "1",
+        "2"
+      ],
+      "hobby_name": "Bug Catching",
+      "hobby_level": 7
+    },
+    {
+      "id": 23,
+      "name": "Elegant Flower Beetle",
+      "sell_price": {
+        "1s": 275,
+        "2s": 412,
+        "3s": 550,
+        "4s": 1100
+      },
+      "locations": [
+        "whale-mountain"
+      ],
+      "image": "images/insects/elegant-flower-beetle.png",
+      "weather": [
+        "Rainy",
+        "Rainbow"
+      ],
+      "time": [
+        "3",
+        "1"
+      ],
+      "hobby_name": "Bug Catching",
+      "hobby_level": 7
+    },
+    {
+      "id": 24,
+      "name": "European Firebug",
+      "sell_price": {
+        "1s": 35,
+        "2s": 52,
+        "3s": 70,
+        "4s": 140,
+        "5s": 280
+      },
+      "locations": [
+        "home-rocks"
+      ],
+      "image": "images/insects/european-firebug.png",
+      "weather": [
+        "Sunny",
+        "Rainy",
+        "Rainbow"
+      ],
+      "time": [
+        "5"
+      ],
+      "hobby_name": "Bug Catching",
+      "hobby_level": 1
+    },
+    {
+      "id": 25,
+      "name": "Fire-Colored Beetle",
+      "sell_price": {
+        "1s": 110,
+        "2s": 165,
+        "3s": 220,
+        "4s": 440,
+        "5s": 880
+      },
+      "locations": [
+        "onsen-mountain-onsen"
+      ],
+      "image": "images/insects/fire-colored-beetle.png",
+      "weather": [
+        "Sunny",
+        "Rainy",
+        "Rainbow"
+      ],
+      "time": [
+        "5"
+      ],
+      "hobby_name": "Bug Catching",
+      "hobby_level": 3
+    },
+    {
+      "id": 26,
+      "name": "Four-Spotted Ladybug",
+      "sell_price": {
+        "1s": 165,
+        "2s": 247,
+        "3s": 330,
+        "4s": 660,
+        "5s": 1320
+      },
+      "locations": [
+        "onsen-mountain-crater-lake"
+      ],
+      "image": "images/insects/four-spotted-ladybug.png",
+      "weather": [
+        "Rainy",
+        "Rainbow"
+      ],
+      "time": [
+        "5"
+      ],
+      "hobby_name": "Bug Catching",
+      "hobby_level": 4
+    },
+    {
+      "id": 27,
+      "name": "Four-Spotted Skimmer",
+      "sell_price": {
+        "1s": 75,
+        "2s": 112,
+        "3s": 150,
+        "4s": 300,
+        "5s": 600
+      },
+      "locations": [
+        "suburban-lakeshore"
+      ],
+      "image": "images/insects/four-spotted-skimmer.png",
+      "weather": [
+        "Rainy",
+        "Rainbow"
+      ],
+      "time": [
+        "5"
+      ],
+      "hobby_name": "Bug Catching",
+      "hobby_level": 2
+    },
+    {
+      "id": 28,
+      "name": "Giant Asian Mantis",
+      "sell_price": {
+        "1s": 390,
+        "2s": 585,
+        "3s": 1560
+      },
+      "locations": [
+        "onsen-mountain-ruins"
+      ],
+      "image": "images/insects/giant-asian-mantis.png",
+      "weather": [
+        "Sunny",
+        "Rainbow"
+      ],
+      "time": [
+        "5"
+      ],
+      "hobby_name": "Bug Catching",
+      "hobby_level": 5
+    },
+    {
+      "id": 29,
+      "name": "Gold Grasshopper",
+      "sell_price": {
+        "1s": 45,
+        "2s": 67,
+        "3s": 90,
+        "4s": 180
+      },
+      "locations": [
+        "onsen-mountain"
+      ],
+      "image": "images/insects/gold-grasshopper.png",
+      "weather": [
+        "Sunny",
+        "Rainy",
+        "Rainbow"
+      ],
+      "time": [
+        "5"
+      ],
+      "hobby_name": "Bug Catching",
+      "hobby_level": 1
+    },
+    {
+      "id": 30,
+      "name": "Golden Jewel Scarab",
+      "sell_price": {
+        "1s": 275,
+        "2s": 412,
+        "3s": 550,
+        "4s": 1100
+      },
+      "locations": [
+        "forest-jump-puzzle"
+      ],
+      "image": "images/insects/golden-jewel-scarab.png",
+      "weather": [
+        "Sunny",
+        "Rainbow"
+      ],
+      "time": [
+        "1",
+        "2"
+      ],
+      "hobby_name": "Bug Catching",
+      "hobby_level": 7
+    },
+    {
+      "id": 31,
+      "name": "Golden Stag Beetle",
+      "sell_price": {
+        "1s": 440,
+        "2s": 660
+      },
+      "locations": [
+        "spirit-oak-pine-forest"
+      ],
+      "image": "images/insects/golden-stag-beetle.png",
+      "weather": [
+        "Rainy",
+        "Rainbow"
+      ],
+      "time": [
+        "4",
+        "2"
+      ],
+      "hobby_name": "Bug Catching",
+      "hobby_level": 9
+    },
+    {
+      "id": 32,
+      "name": "Green Birdwing",
+      "sell_price": {
+        "1s": 150,
+        "2s": 225,
+        "3s": 300,
+        "4s": 600,
+        "5s": 1200
+      },
+      "locations": [
+        "suburbs"
+      ],
+      "image": "images/insects/green-birdwing.png",
+      "weather": [
+        "Sunny",
+        "Rainy",
+        "Rainbow"
+      ],
+      "time": [
+        "3",
+        "1",
+        "2"
+      ],
+      "hobby_name": "Bug Catching",
+      "hobby_level": 6
+    },
+    {
+      "id": 33,
+      "name": "Green Tiger Beetle",
+      "sell_price": {
+        "1s": 110,
+        "2s": 165,
+        "3s": 220,
+        "4s": 440,
+        "5s": 880
+      },
+      "locations": [
+        "onsen-mountain"
+      ],
+      "image": "images/insects/green-tiger-beetle.png",
+      "weather": [
+        "Sunny",
+        "Rainy",
+        "Rainbow"
+      ],
+      "time": [
+        "5"
+      ],
+      "hobby_name": "Bug Catching",
+      "hobby_level": 2
+    },
+    {
+      "id": 34,
+      "name": "Hercules Beetle",
+      "sell_price": {},
+      "locations": [],
+      "image": "images/insects/hercules-beetle.png",
+      "weather": [],
+      "time": [],
+      "hobby_name": "Bug Catching",
+      "hobby_level": 10
+    },
+    {
+      "id": 35,
+      "name": "Horned Beetle",
+      "sell_price": {
+        "1s": 275,
+        "2s": 412,
+        "3s": 550,
+        "4s": 1100
+      },
+      "locations": [
+        "fishing-village-east-pier"
+      ],
+      "image": "images/insects/horned-beetle.png",
+      "weather": [
+        "Sunny",
+        "Rainbow"
+      ],
+      "time": [
+        "4",
+        "2"
+      ],
+      "hobby_name": "Bug Catching",
+      "hobby_level": 8
+    },
+    {
+      "id": 36,
+      "name": "Katydid",
+      "sell_price": {
+        "1s": 180,
+        "2s": 270,
+        "3s": 360
+      },
+      "locations": [
+        "amethyst-beach"
+      ],
+      "image": "images/insects/katydid.png",
+      "weather": [
+        "Sunny",
+        "Rainy",
+        "Rainbow"
+      ],
+      "time": [
+        "5"
+      ],
+      "hobby_name": "Bug Catching",
+      "hobby_level": 3
+    },
+    {
+      "id": 37,
+      "name": "Large Banded Grasshopper",
+      "sell_price": {
+        "1s": 140,
+        "2s": 210,
+        "3s": 280,
+        "4s": 560,
+        "5s": 1120
+      },
+      "locations": [
+        "suburbs"
+      ],
+      "image": "images/insects/large-banded-grasshopper.png",
+      "weather": [
+        "Sunny",
+        "Rainbow"
+      ],
+      "time": [
+        "4",
+        "2"
+      ],
+      "hobby_name": "Bug Catching",
+      "hobby_level": 4
+    },
+    {
+      "id": 38,
+      "name": "Large Red Damselfly",
+      "sell_price": {
+        "1s": 35,
+        "2s": 52,
+        "3s": 70,
+        "4s": 140,
+        "5s": 280
+      },
+      "locations": [
+        "waterside"
+      ],
+      "image": "images/insects/large-red-damselfly.png",
+      "weather": [
+        "Sunny",
+        "Rainy",
+        "Rainbow"
+      ],
+      "time": [
+        "5"
+      ],
+      "hobby_name": "Bug Catching",
+      "hobby_level": 1
+    },
+    {
+      "id": 39,
+      "name": "Mediterranean Mantis",
+      "sell_price": {
+        "1s": 195,
+        "2s": 292,
+        "3s": 390,
+        "4s": 780,
+        "5s": 1560
+      },
+      "locations": [
+        "onsen-mountain-stone-cliff"
+      ],
+      "image": "images/insects/mediterranean-mantis.png",
+      "weather": [
+        "Sunny",
+        "Rainbow"
+      ],
+      "time": [
+        "1",
+        "2",
+        "4"
+      ],
+      "hobby_name": "Bug Catching",
+      "hobby_level": 4
+    },
+    {
+      "id": 40,
+      "name": "Mini Moon Moth",
+      "sell_price": {
+        "1s": 105,
+        "2s": 157,
+        "3s": 210,
+        "4s": 300
+      },
+      "locations": [
+        "suburbs"
+      ],
+      "image": "images/insects/mini-moon-moth.png",
+      "weather": [
+        "Sunny",
+        "Rainbow"
+      ],
+      "time": [
+        "3",
+        "1",
+        "2"
+      ],
+      "hobby_name": "Bug Catching",
+      "hobby_level": 3
+    },
+    {
+      "id": 41,
+      "name": "Minotaur Beetle",
+      "sell_price": {
+        "1s": 275,
+        "2s": 412,
+        "3s": 550,
+        "4s": 1100
+      },
+      "locations": [
+        "onsen-mountain-ruins"
+      ],
+      "image": "images/insects/minotaur-beetle.png",
+      "weather": [
+        "Sunny",
+        "Rainy",
+        "Rainbow"
+      ],
+      "time": [
+        "4",
+        "3",
+        "1"
+      ],
+      "hobby_name": "Bug Catching",
+      "hobby_level": 7
+    },
+    {
+      "id": 42,
+      "name": "Morpho Helena",
+      "sell_price": {},
+      "locations": [],
+      "image": "images/insects/morpho-helena.png",
+      "weather": [],
+      "time": [],
+      "hobby_name": "Bug Catching",
+      "hobby_level": 10
+    },
+    {
+      "id": 43,
+      "name": "Mother-Of-Pearl",
+      "sell_price": {
+        "1s": 240,
+        "2s": 360,
+        "3s": 480,
+        "4s": 960
+      },
+      "locations": [
+        "windmill-flower-field"
+      ],
+      "image": "images/insects/mother-of-pearl.png",
+      "weather": [
+        "Rainy",
+        "Rainbow"
+      ],
+      "time": [
+        "4",
+        "3"
+      ],
+      "hobby_name": "Bug Catching",
+      "hobby_level": 9
+    },
+    {
+      "id": 44,
+      "name": "Mourning Cloak",
+      "sell_price": {
+        "1s": 90,
+        "2s": 135,
+        "3s": 180,
+        "4s": 360,
+        "5s": 720
+      },
+      "locations": [
+        "onsen-mountain-onsen"
+      ],
+      "image": "images/insects/mourning-cloak.png",
+      "weather": [
+        "Sunny",
+        "Rainbow"
+      ],
+      "time": [
+        "4",
+        "3",
+        "1"
+      ],
+      "hobby_name": "Bug Catching",
+      "hobby_level": 5
+    },
+    {
+      "id": 45,
+      "name": "Old World Swallowtail",
+      "sell_price": {
+        "1s": 30,
+        "2s": 45,
+        "3s": 60,
+        "4s": 120,
+        "5s": 240
+      },
+      "locations": [
+        "forest"
+      ],
+      "image": "images/insects/old-world-swallowtail.png",
+      "weather": [
+        "Sunny",
+        "Rainy",
+        "Rainbow"
+      ],
+      "time": [
+        "4",
+        "3"
+      ],
+      "hobby_name": "Bug Catching",
+      "hobby_level": 1
+    },
+    {
+      "id": 46,
+      "name": "Orange-Tip",
+      "sell_price": {
+        "1s": 30,
+        "2s": 45,
+        "3s": 60,
+        "4s": 120,
+        "5s": 240
+      },
+      "locations": [
+        "central-area"
+      ],
+      "image": "images/insects/orange-tip.png",
+      "weather": [
+        "Sunny",
+        "Rainy",
+        "Rainbow"
+      ],
+      "time": [
+        "4",
+        "3"
+      ],
+      "hobby_name": "Bug Catching",
+      "hobby_level": 1
+    },
+    {
+      "id": 47,
+      "name": "Peacock Butterfly",
+      "sell_price": {
+        "1s": 90,
+        "2s": 135,
+        "3s": 180,
+        "4s": 360,
+        "5s": 720
+      },
+      "locations": [
+        "windmill-flower-field"
+      ],
+      "image": "images/insects/peacock-butterfly.png",
+      "weather": [
+        "Sunny",
+        "Rainy",
+        "Rainbow"
+      ],
+      "time": [
+        "4",
+        "3"
+      ],
+      "hobby_name": "Bug Catching",
+      "hobby_level": 5
+    },
+    {
+      "id": 48,
+      "name": "Picasso Bug",
+      "sell_price": {
+        "1s": 185,
+        "2s": 277,
+        "3s": 370
+      },
+      "locations": [
+        "amethyst-beach"
+      ],
+      "image": "images/insects/picasso-bug.png",
+      "weather": [
+        "Sunny",
+        "Rainbow"
+      ],
+      "time": [
+        "4",
+        "2"
+      ],
+      "hobby_name": "Bug Catching",
+      "hobby_level": 8
+    },
+    {
+      "id": 49,
+      "name": "Pink Katydid",
+      "sell_price": {
+        "1s": 90,
+        "2s": 135,
+        "3s": 180,
+        "4s": 360,
+        "5s": 720
+      },
+      "locations": [
+        "bait-the-insects-event"
+      ],
+      "image": "images/insects/pink-katydid.png",
+      "weather": [
+        "Sunny",
+        "Rainy",
+        "Rainbow"
+      ],
+      "time": [
+        "4",
+        "3"
+      ],
+      "hobby_name": "Bug Catching",
+      "hobby_level": 3
+    },
+    {
+      "id": 50,
+      "name": "Postman Butterfly",
+      "sell_price": {
+        "1s": 30,
+        "2s": 45,
+        "3s": 60,
+        "4s": 120,
+        "5s": 240
+      },
+      "locations": [
+        "bait-the-insects-event"
+      ],
+      "image": "images/insects/postman-butterfly.png",
+      "weather": [
+        "Sunny",
+        "Rainy",
+        "Rainbow"
+      ],
+      "time": [
+        "4",
+        "3"
+      ],
+      "hobby_name": "Bug Catching",
+      "hobby_level": 1
+    },
+    {
+      "id": 51,
+      "name": "Purple Emperor",
+      "sell_price": {
+        "1s": 90,
+        "2s": 135,
+        "3s": 180,
+        "4s": 360,
+        "5s": 720
+      },
+      "locations": [
+        "whale-mountain"
+      ],
+      "image": "images/insects/purple-emperor.png",
+      "weather": [
+        "Sunny",
+        "Rainbow"
+      ],
+      "time": [
+        "4",
+        "1",
+        "2"
+      ],
+      "hobby_name": "Bug Catching",
+      "hobby_level": 3
+    },
+    {
+      "id": 52,
+      "name": "Rainbow Stag Beetle",
+      "sell_price": {
+        "1s": 440,
+        "2s": 660
+      },
+      "locations": [
+        "bait-the-insects-event-ruins"
+      ],
+      "image": "images/insects/rainbow-stag-beetle.png",
+      "weather": [
+        "Sunny",
+        "Rainy",
+        "Rainbow"
+      ],
+      "time": [
+        "4",
+        "3"
+      ],
+      "hobby_name": "Bug Catching",
+      "hobby_level": 9
+    },
+    {
+      "id": 53,
+      "name": "Rajah Brooke's Birdwing",
+      "sell_price": {
+        "1s": 90,
+        "2s": 135,
+        "3s": 180,
+        "4s": 360,
+        "5s": 720
+      },
+      "locations": [
+        "home"
+      ],
+      "image": "images/insects/rajah-brookes-birdwing.png",
+      "weather": [
+        "Sunny",
+        "Rainy",
+        "Rainbow"
+      ],
+      "time": [
+        "4",
+        "3"
+      ],
+      "hobby_name": "Bug Catching",
+      "hobby_level": 3
+    },
+    {
+      "id": 54,
+      "name": "Seven-Spotted Ladybug",
+      "sell_price": {
+        "1s": 110,
+        "2s": 165,
+        "3s": 220,
+        "4s": 440,
+        "5s": 880
+      },
+      "locations": [
+        "suburbs"
+      ],
+      "image": "images/insects/seven-spotted-ladybug.png",
+      "weather": [
+        "Rainy",
+        "Rainbow"
+      ],
+      "time": [
+        "4",
+        "3",
+        "1"
+      ],
+      "hobby_name": "Bug Catching",
+      "hobby_level": 2
+    },
+    {
+      "id": 55,
+      "name": "Siberian Grasshopper",
+      "sell_price": {
+        "1s": 90,
+        "2s": 135,
+        "3s": 180,
+        "4s": 360,
+        "5s": 720
+      },
+      "locations": [
+        "fishing-village"
+      ],
+      "image": "images/insects/siberian-grasshopper.png",
+      "weather": [
+        "Sunny",
+        "Rainy",
+        "Rainbow"
+      ],
+      "time": [
+        "4",
+        "3"
+      ],
+      "hobby_name": "Bug Catching",
+      "hobby_level": 2
+    },
+    {
+      "id": 56,
+      "name": "Silver Jewel Scarab",
+      "sell_price": {
+        "1s": 165,
+        "2s": 247,
+        "3s": 330,
+        "4s": 660,
+        "5s": 1320
+      },
+      "locations": [
+        "onsen-stone-cliff-side-of-trees"
+      ],
+      "image": "images/insects/silver-jewel-scarab.png",
+      "weather": [
+        "Sunny",
+        "Rainbow"
+      ],
+      "time": [
+        "4",
+        "3",
+        "1"
+      ],
+      "hobby_name": "Bug Catching",
+      "hobby_level": 6
+    },
+    {
+      "id": 57,
+      "name": "Spanish Moon Moth",
+      "sell_price": {
+        "1s": 150,
+        "2s": 225,
+        "3s": 300,
+        "4s": 600,
+        "5s": 1200
+      },
+      "locations": [
+        "spirit-oak-pine-forest"
+      ],
+      "image": "images/insects/spanish-moon-moth.png",
+      "weather": [
+        "Sunny",
+        "Rainbow"
+      ],
+      "time": [
+        "1",
+        "2"
+      ],
+      "hobby_name": "Bug Catching",
+      "hobby_level": 8
+    },
+    {
+      "id": 58,
+      "name": "Splay-Footed Carpenter",
+      "sell_price": {
+        "1s": 165,
+        "2s": 247,
+        "3s": 330,
+        "4s": 660,
+        "5s": 1320
+      },
+      "locations": [
+        "whale-mountain"
+      ],
+      "image": "images/insects/splay-footed-carpenter.png",
+      "weather": [
+        "Sunny",
+        "Rainbow"
+      ],
+      "time": [
+        "4",
+        "3",
+        "1"
+      ],
+      "hobby_name": "Bug Catching",
+      "hobby_level": 5
+    },
+    {
+      "id": 59,
+      "name": "Stag Beetle",
+      "sell_price": {
+        "1s": 275,
+        "2s": 412,
+        "3s": 550,
+        "4s": 1100
+      },
+      "locations": [
+        "forest-jump-puzzle"
+      ],
+      "image": "images/insects/stag-beetle.png",
+      "weather": [
+        "Rainy",
+        "Rainbow"
+      ],
+      "time": [
+        "3",
+        "1",
+        "2"
+      ],
+      "hobby_name": "Bug Catching",
+      "hobby_level": 6
+    },
+    {
+      "id": 60,
+      "name": "Sulkowsky's Morpho",
+      "sell_price": {
+        "1s": 90,
+        "2s": 135,
+        "3s": 180,
+        "4s": 360,
+        "5s": 720
+      },
+      "locations": [
+        "inflatable-insect-attractor"
+      ],
+      "image": "images/insects/sulkowskys-morpho.png",
+      "weather": [
+        "Sunny",
+        "Rainy",
+        "Rainbow"
+      ],
+      "time": [
+        "4",
+        "3"
+      ],
+      "hobby_name": "Bug Catching",
+      "hobby_level": 1
+    },
+    {
+      "id": 61,
+      "name": "Sunset Morpho",
+      "sell_price": {},
+      "locations": [],
+      "image": "images/insects/sunset-morpho.png",
+      "weather": [],
+      "time": [],
+      "hobby_name": "Bug Catching",
+      "hobby_level": 10
+    },
+    {
+      "id": 62,
+      "name": "Waroona Cuckoo Bee",
+      "sell_price": {
+        "1s": 165,
+        "2s": 247,
+        "3s": 330,
+        "4s": 660,
+        "5s": 1320
+      },
+      "locations": [
+        "forest-deer-tower"
+      ],
+      "image": "images/insects/waroona-cuckoo-bee.png",
+      "weather": [
+        "Sunny",
+        "Rainy",
+        "Rainbow"
+      ],
+      "time": [
+        "4",
+        "3"
+      ],
+      "hobby_name": "Bug Catching",
+      "hobby_level": 3
+    },
+    {
+      "id": 63,
+      "name": "Wasp Beetle",
+      "sell_price": {
+        "1s": 110,
+        "2s": 165,
+        "3s": 220,
+        "4s": 440,
+        "5s": 880
+      },
+      "locations": [
+        "forest"
+      ],
+      "image": "images/insects/wasp-beetle.png",
+      "weather": [
+        "Sunny",
+        "Rainy",
+        "Rainbow"
+      ],
+      "time": [
+        "4",
+        "3"
+      ],
+      "hobby_name": "Bug Catching",
+      "hobby_level": 2
+    },
+    {
+      "id": 64,
+      "name": "White Witch",
+      "sell_price": {
+        "1s": 90,
+        "2s": 135,
+        "3s": 180,
+        "4s": 360,
+        "5s": 720
+      },
+      "locations": [
+        "bait-the-insects-event"
+      ],
+      "image": "images/insects/white-witch.png",
+      "weather": [
+        "Sunny",
+        "Rainbow"
+      ],
+      "time": [
+        "4",
+        "3",
+        "1"
+      ],
+      "hobby_name": "Bug Catching",
+      "hobby_level": 5
+    }
+  ],
+  "fish": [
+    {
+      "id": 1,
+      "name": "Common Chub",
+      "sell_price": {
+        "1s": 75,
+        "2s": 112,
+        "3s": 150,
+        "4s": 300,
+        "5s": 600
+      },
+      "locations": [
+        "lake"
+      ],
+      "image": "",
+      "weather": [
+        "Sunny",
+        "Rainy",
+        "Rainbow"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Mussel",
+      "sell_price": {
+        "1s": 100,
+        "2s": 150,
+        "3s": 200,
+        "4s": 400,
+        "5s": 800
+      },
+      "locations": [
+        "suburban-lake"
+      ],
+      "image": "",
+      "weather": [
+        "Rainy",
+        "Rainbow"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "European Perch",
+      "sell_price": {
+        "1s": 75,
+        "2s": 112,
+        "3s": 150,
+        "4s": 300,
+        "5s": 600
+      },
+      "locations": [
+        "river"
+      ],
+      "image": "",
+      "weather": [
+        "Sunny",
+        "Rainy",
+        "Rainbow"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Edible Frog",
+      "sell_price": {
+        "1s": 320,
+        "2s": 480,
+        "3s": 640,
+        "4s": 1280,
+        "5s": 2560
+      },
+      "locations": [
+        "lake"
+      ],
+      "image": "",
+      "weather": [
+        "Sunny",
+        "Rainy",
+        "Rainbow"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Burbot",
+      "sell_price": {
+        "1s": 230,
+        "2s": 345,
+        "3s": 460,
+        "4s": 920,
+        "5s": 1840
+      },
+      "locations": [
+        "tranquil-river"
+      ],
+      "image": "",
+      "weather": [
+        "Sunny",
+        "Rainy",
+        "Rainbow"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Spined Loach",
+      "sell_price": {
+        "1s": 50,
+        "2s": 75,
+        "3s": 100,
+        "4s": 200,
+        "5s": 400
+      },
+      "locations": [
+        "giantwood-river"
+      ],
+      "image": "",
+      "weather": [
+        "Sunny",
+        "Rainy",
+        "Rainbow"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Goby",
+      "sell_price": {
+        "1s": 150,
+        "2s": 225,
+        "3s": 300,
+        "4s": 600,
+        "5s": 1200
+      },
+      "locations": [
+        "east-sea"
+      ],
+      "image": "",
+      "weather": [
+        "Sunny",
+        "Rainy",
+        "Rainbow"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Common Barbel",
+      "sell_price": {
+        "1s": 75,
+        "2s": 112,
+        "3s": 150,
+        "4s": 300,
+        "5s": 600
+      },
+      "locations": [
+        "shallow-river"
+      ],
+      "image": "",
+      "weather": [
+        "Sunny",
+        "Rainy",
+        "Rainbow"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Stone Loach",
+      "sell_price": {
+        "1s": 100,
+        "2s": 150,
+        "3s": 200,
+        "4s": 400,
+        "5s": 800
+      },
+      "locations": [
+        "suburban-lake"
+      ],
+      "image": "",
+      "weather": [
+        "Sunny",
+        "Rainy",
+        "Rainbow"
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Minnow",
+      "sell_price": {
+        "1s": 50,
+        "2s": 75,
+        "3s": 100,
+        "4s": 200,
+        "5s": 400
+      },
+      "locations": [
+        "tranquil-river"
+      ],
+      "image": "",
+      "weather": [
+        "Sunny",
+        "Rainy",
+        "Rainbow"
+      ]
+    },
+    {
+      "id": 11,
+      "name": "European Smelt",
+      "sell_price": {
+        "1s": 100,
+        "2s": 150,
+        "3s": 200,
+        "4s": 400,
+        "5s": 800
+      },
+      "locations": [
+        "meadow-lake"
+      ],
+      "image": "",
+      "weather": [
+        "Sunny",
+        "Rainy",
+        "Rainbow"
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Tench",
+      "sell_price": {
+        "1s": 50,
+        "2s": 75,
+        "3s": 100,
+        "4s": 200,
+        "5s": 400
+      },
+      "locations": [
+        "forest-lake"
+      ],
+      "image": "",
+      "weather": [
+        "Sunny",
+        "Rainy",
+        "Rainbow"
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Zander",
+      "sell_price": {
+        "1s": 230,
+        "2s": 345,
+        "3s": 460,
+        "4s": 920,
+        "5s": 1840
+      },
+      "locations": [
+        "giantwood-river"
+      ],
+      "image": "",
+      "weather": [
+        "Sunny",
+        "Rainbow"
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Grayling",
+      "sell_price": {
+        "1s": 230,
+        "2s": 345,
+        "3s": 460,
+        "4s": 920,
+        "5s": 1840
+      },
+      "locations": [
+        "suburban-lake"
+      ],
+      "image": "",
+      "weather": [
+        "Sunny",
+        "Rainy",
+        "Rainbow"
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Common Whitefish",
+      "sell_price": {
+        "1s": 105,
+        "2s": 157,
+        "3s": 210,
+        "4s": 420,
+        "5s": 840
+      },
+      "locations": [
+        "onsen-mountain-lake"
+      ],
+      "image": "",
+      "weather": [
+        "Sunny",
+        "Rainy",
+        "Rainbow"
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Tadpole",
+      "sell_price": {
+        "1s": 100,
+        "2s": 150,
+        "3s": 200,
+        "4s": 400,
+        "5s": 800
+      },
+      "locations": [
+        "onsen-mountain-lake"
+      ],
+      "image": "",
+      "weather": [
+        "Rainy",
+        "Rainbow"
+      ]
+    },
+    {
+      "id": 17,
+      "name": "River Crab",
+      "sell_price": {
+        "1s": 100,
+        "2s": 150,
+        "3s": 200,
+        "4s": 400,
+        "5s": 800
+      },
+      "locations": [
+        "suburban-lake"
+      ],
+      "image": "",
+      "weather": [
+        "Sunny",
+        "Rainy",
+        "Rainbow"
+      ]
+    },
+    {
+      "id": 18,
+      "name": "Crucian Carp",
+      "sell_price": {
+        "1s": 75,
+        "2s": 112,
+        "3s": 150,
+        "4s": 300,
+        "5s": 600
+      },
+      "locations": [
+        "suburban-lake"
+      ],
+      "image": "",
+      "weather": [
+        "Sunny",
+        "Rainy",
+        "Rainbow"
+      ]
+    },
+    {
+      "id": 19,
+      "name": "Common Bleak",
+      "sell_price": {
+        "1s": 50,
+        "2s": 75,
+        "3s": 100,
+        "4s": 200,
+        "5s": 400
+      },
+      "locations": [
+        "lake"
+      ],
+      "image": ""
+    },
+    {
+      "id": 21,
+      "name": "Schneider",
+      "sell_price": {
+        "1s": 50,
+        "2s": 75,
+        "3s": 100,
+        "4s": 200,
+        "5s": 400
+      },
+      "locations": [
+        "suburban-lake"
+      ],
+      "image": "",
+      "weather": [
+        "Sunny",
+        "Rainy",
+        "Rainbow"
+      ]
+    },
+    {
+      "id": 22,
+      "name": "Ruffe",
+      "sell_price": {
+        "1s": 100,
+        "2s": 150,
+        "3s": 200,
+        "4s": 400,
+        "5s": 800
+      },
+      "locations": [
+        "onsen-mountain-lake"
+      ],
+      "image": "",
+      "weather": [
+        "Sunny",
+        "Rainy",
+        "Rainbow"
+      ]
+    },
+    {
+      "id": 23,
+      "name": "Oriental Shrimp",
+      "sell_price": {
+        "1s": 50,
+        "2s": 75,
+        "3s": 100,
+        "4s": 200,
+        "5s": 400
+      },
+      "locations": [
+        "river"
+      ],
+      "image": "",
+      "weather": [
+        "Sunny",
+        "Rainy",
+        "Rainbow"
+      ]
+    },
+    {
+      "id": 24,
+      "name": "Sardine",
+      "sell_price": {
+        "1s": 50,
+        "2s": 75,
+        "3s": 100,
+        "4s": 200,
+        "5s": 400
+      },
+      "locations": [
+        "ocean"
+      ],
+      "image": "",
+      "weather": [
+        "Sunny",
+        "Rainy",
+        "Rainbow"
+      ]
+    },
+    {
+      "id": 25,
+      "name": "Sea Bass",
+      "sell_price": {
+        "1s": 75,
+        "2s": 112,
+        "3s": 150,
+        "4s": 300,
+        "5s": 600
+      },
+      "locations": [
+        "ocean"
+      ],
+      "image": "",
+      "weather": [
+        "Sunny",
+        "Rainy",
+        "Rainbow"
+      ]
+    },
+    {
+      "id": 26,
+      "name": "Skipjack Tuna",
+      "sell_price": {
+        "1s": 210,
+        "2s": 315,
+        "3s": 420,
+        "4s": 840,
+        "5s": 1680
+      },
+      "locations": [
+        "ocean"
+      ],
+      "image": "",
+      "weather": [
+        "Sunny",
+        "Rainy",
+        "Rainbow"
+      ]
+    },
+    {
+      "id": 27,
+      "name": "Atlantic Mackerel",
+      "sell_price": {
+        "1s": 150,
+        "2s": 225,
+        "3s": 300,
+        "4s": 600,
+        "5s": 1200
+      },
+      "locations": [
+        "whale-sea"
+      ],
+      "image": "",
+      "weather": [
+        "Sunny",
+        "Rainbow"
+      ]
+    },
+    {
+      "id": 28,
+      "name": "False Scad",
+      "sell_price": {
+        "1s": 155,
+        "2s": 232,
+        "3s": 310,
+        "4s": 620,
+        "5s": 1240
+      },
+      "locations": [
+        "zephyr-sea"
+      ],
+      "image": "",
+      "weather": [
+        "Sunny",
+        "Rainy",
+        "Rainbow"
+      ]
+    },
+    {
+      "id": 29,
+      "name": "Giant Oarfish",
+      "sell_price": {
+        "1s": 535,
+        "2s": 802,
+        "3s": 1070,
+        "4s": 2140,
+        "5s": 4280
+      },
+      "locations": [
+        "sea-fishing"
+      ],
+      "image": "",
+      "weather": [
+        "Sunny",
+        "Rainy",
+        "Rainbow"
+      ]
+    },
+    {
+      "id": 30,
+      "name": "Common Octopus",
+      "sell_price": {
+        "1s": 320,
+        "2s": 480,
+        "3s": 640,
+        "4s": 1280,
+        "5s": 2560
+      },
+      "locations": [
+        "sea-fishing"
+      ],
+      "image": "",
+      "weather": [
+        "Sunny",
+        "Rainy",
+        "Rainbow"
+      ]
+    },
+    {
+      "id": 31,
+      "name": "Seahorse",
+      "sell_price": {
+        "1s": 100,
+        "2s": 150,
+        "3s": 200,
+        "4s": 400,
+        "5s": 800
+      },
+      "locations": [
+        "whale-sea"
+      ],
+      "image": "",
+      "weather": [
+        "Sunny",
+        "Rainy",
+        "Rainbow"
+      ]
+    },
+    {
+      "id": 32,
+      "name": "Atlantic Salmon",
+      "sell_price": {
+        "1s": 155,
+        "2s": 232,
+        "3s": 310,
+        "4s": 620,
+        "5s": 1240
+      },
+      "locations": [
+        "whale-sea"
+      ],
+      "image": "",
+      "weather": [
+        "Sunny",
+        "Rainy",
+        "Rainbow"
+      ]
+    },
+    {
+      "id": 33,
+      "name": "Anglerfish",
+      "sell_price": {
+        "1s": 320,
+        "2s": 480,
+        "3s": 640,
+        "4s": 1280,
+        "5s": 2560
+      },
+      "locations": [
+        "sea-fishing"
+      ],
+      "image": "",
+      "weather": [
+        "Sunny",
+        "Rainy",
+        "Rainbow"
+      ],
+      "shadow": "Golden",
+      "time": [
+        "5"
+      ],
+      "hobby_name": "Fishing",
+      "hobby_level": 2
+    },
+    {
+      "id": 34,
+      "name": "Beltfish",
+      "sell_price": {
+        "1s": 105,
+        "2s": 157,
+        "3s": 210,
+        "4s": 420,
+        "5s": 840
+      },
+      "locations": [
+        "zephyr-sea"
+      ],
+      "image": "",
+      "weather": [
+        "Sunny",
+        "Rainy",
+        "Rainbow"
+      ]
+    },
+    {
+      "id": 35,
+      "name": "Turbot",
+      "sell_price": {
+        "1s": 320,
+        "2s": 480,
+        "3s": 640,
+        "4s": 1280,
+        "5s": 2560
+      },
+      "locations": [
+        "sea-fishing"
+      ],
+      "image": "",
+      "weather": [
+        "Sunny",
+        "Rainy",
+        "Rainbow"
+      ]
+    },
+    {
+      "id": 36,
+      "name": "Common Shrimp",
+      "sell_price": {
+        "1s": 50,
+        "2s": 75,
+        "3s": 100,
+        "4s": 200,
+        "5s": 400
+      },
+      "locations": [
+        "east-sea"
+      ],
+      "image": "",
+      "weather": [
+        "Sunny",
+        "Rainy",
+        "Rainbow"
+      ]
+    },
+    {
+      "id": 37,
+      "name": "European Plaice",
+      "sell_price": {
+        "1s": 230,
+        "2s": 345,
+        "3s": 460,
+        "4s": 920,
+        "5s": 1840
+      },
+      "locations": [
+        "old-sea"
+      ],
+      "image": "",
+      "weather": [
+        "Sunny",
+        "Rainy",
+        "Rainbow"
+      ]
+    },
+    {
+      "id": 39,
+      "name": "Nursehound",
+      "sell_price": {
+        "1s": 535,
+        "2s": 802,
+        "3s": 1070,
+        "4s": 2140,
+        "5s": 4280
+      },
+      "locations": [
+        "sea-fishing"
+      ],
+      "image": "",
+      "weather": [
+        "Sunny",
+        "Rainy",
+        "Rainbow"
+      ]
+    },
+    {
+      "id": 40,
+      "name": "Atlantic Pygmy Octopus",
+      "sell_price": {
+        "1s": 150,
+        "2s": 225,
+        "3s": 300,
+        "4s": 600,
+        "5s": 1200
+      },
+      "locations": [
+        "zephyr-sea"
+      ],
+      "image": "",
+      "weather": [
+        "Sunny",
+        "Rainy",
+        "Rainbow"
+      ]
+    },
+    {
+      "id": 41,
+      "name": "Sea Stickleback",
+      "sell_price": {
+        "1s": 50,
+        "2s": 75,
+        "3s": 100,
+        "4s": 200,
+        "5s": 400
+      },
+      "locations": [
+        "old-sea"
+      ],
+      "image": "",
+      "weather": [
+        "Sunny",
+        "Rainy",
+        "Rainbow"
+      ]
+    },
+    {
+      "id": 42,
+      "name": "European Lobster",
+      "sell_price": {
+        "1s": 230,
+        "2s": 345,
+        "3s": 460,
+        "4s": 920,
+        "5s": 1840
+      },
+      "locations": [
+        "zephyr-sea"
+      ],
+      "image": "",
+      "weather": [
+        "Sunny",
+        "Rainy",
+        "Rainbow"
+      ]
+    },
+    {
+      "id": 43,
+      "name": "European Flying Squid",
+      "sell_price": {
+        "1s": 320,
+        "2s": 480,
+        "3s": 640,
+        "4s": 1280,
+        "5s": 2560
+      },
+      "locations": [
+        "sea-fishing"
+      ],
+      "image": "",
+      "weather": [
+        "Sunny",
+        "Rainy",
+        "Rainbow"
+      ]
+    },
+    {
+      "id": 44,
+      "name": "Striped Red Mullet",
+      "sell_price": {
+        "1s": 320,
+        "2s": 480,
+        "3s": 640,
+        "4s": 1280,
+        "5s": 2560
+      },
+      "locations": [
+        "sea-fishing"
+      ],
+      "image": "",
+      "weather": [
+        "Sunny",
+        "Rainy",
+        "Rainbow"
+      ]
+    },
+    {
+      "id": 45,
+      "name": "Hermit Crab",
+      "sell_price": {
+        "1s": 100,
+        "2s": 150,
+        "3s": 200,
+        "4s": 400,
+        "5s": 800
+      },
+      "locations": [
+        "east-sea"
+      ],
+      "image": "",
+      "weather": [
+        "Sunny",
+        "Rainy",
+        "Rainbow"
+      ]
+    },
+    {
+      "id": 46,
+      "name": "Butterfly Koi",
+      "sell_price": {
+        "1s": 320,
+        "2s": 480,
+        "3s": 640,
+        "4s": 1280,
+        "5s": 2560
+      },
+      "locations": [
+        "meadow-lake"
+      ],
+      "image": "",
+      "weather": [
+        "Rainy",
+        "Rainbow"
+      ]
+    },
+    {
+      "id": 47,
+      "name": "Arctic Char",
+      "sell_price": {},
+      "locations": [
+        "forest-lake"
+      ],
+      "image": "",
+      "weather": [
+        "Rainy",
+        "Rainbow"
+      ]
+    },
+    {
+      "id": 48,
+      "name": "Blackspot Seabream",
+      "sell_price": {
+        "1s": 230,
+        "2s": 345,
+        "3s": 460,
+        "4s": 920,
+        "5s": 1840
+      },
+      "locations": [
+        "zephyr-sea"
+      ],
+      "image": "",
+      "weather": [
+        "Rainy",
+        "Rainbow"
+      ]
+    },
+    {
+      "id": 49,
+      "name": "Blue Ero Crayfish",
+      "sell_price": {
+        "1s": 250,
+        "2s": 375,
+        "3s": 500
+      },
+      "locations": [
+        "forest-lake"
+      ],
+      "image": "",
+      "weather": [
+        "Sunny",
+        "Rainy",
+        "Rainbow"
+      ]
+    },
+    {
+      "id": 50,
+      "name": "Bluefin Tuna",
+      "sell_price": {},
+      "locations": [
+        "zephyr-sea"
+      ],
+      "image": "",
+      "weather": [
+        "Rainbow"
+      ]
+    },
+    {
+      "id": 51,
+      "name": "Bluegill",
+      "sell_price": {},
+      "locations": [
+        "onsen-mountain-lake"
+      ],
+      "image": ""
+    },
+    {
+      "id": 52,
+      "name": "Chum Salmon",
+      "sell_price": {
+        "1s": 150,
+        "2s": 225,
+        "3s": 300,
+        "4s": 600,
+        "5s": 1200
+      },
+      "locations": [
+        "tranquil-river"
+      ],
+      "image": "",
+      "weather": [
+        "Rainbow"
+      ]
+    },
+    {
+      "id": 53,
+      "name": "Clownfish",
+      "sell_price": {
+        "1s": 100,
+        "2s": 150,
+        "3s": 200,
+        "4s": 400,
+        "5s": 800
+      },
+      "locations": [
+        "old-sea"
+      ],
+      "image": "",
+      "weather": [
+        "Sunny",
+        "Rainy",
+        "Rainbow"
+      ]
+    },
+    {
+      "id": 54,
+      "name": "Common Carp",
+      "sell_price": {
+        "1s": 230,
+        "2s": 345,
+        "3s": 460,
+        "4s": 920,
+        "5s": 1840
+      },
+      "locations": [
+        "rosy-river"
+      ],
+      "image": "",
+      "weather": [
+        "Sunny",
+        "Rainbow"
+      ]
+    },
+    {
+      "id": 55,
+      "name": "Common Rudd",
+      "sell_price": {
+        "1s": 150,
+        "2s": 225,
+        "3s": 300,
+        "4s": 600,
+        "5s": 1200
+      },
+      "locations": [
+        "suburban-lake"
+      ],
+      "image": "",
+      "weather": [
+        "Sunny",
+        "Rainy",
+        "Rainbow"
+      ]
+    },
+    {
+      "id": 56,
+      "name": "European Crayfish",
+      "sell_price": {
+        "1s": 100,
+        "2s": 150,
+        "3s": 200,
+        "4s": 400,
+        "5s": 800
+      },
+      "locations": [
+        "forest-lake"
+      ],
+      "image": "",
+      "weather": [
+        "Sunny",
+        "Rainy",
+        "Rainbow"
+      ]
+    },
+    {
+      "id": 57,
+      "name": "European Eel",
+      "sell_price": {
+        "1s": 380,
+        "2s": 570,
+        "3s": 760,
+        "4s": 1520
+      },
+      "locations": [
+        "old-sea"
+      ],
+      "image": "",
+      "weather": [
+        "Rainbow"
+      ]
+    },
+    {
+      "id": 58,
+      "name": "European Mudminnow",
+      "sell_price": {
+        "1s": 250,
+        "2s": 375,
+        "3s": 500
+      },
+      "locations": [
+        "suburban-lake"
+      ],
+      "image": "",
+      "weather": [
+        "Sunny",
+        "Rainbow"
+      ]
+    },
+    {
+      "id": 59,
+      "name": "Freshwater Blenny",
+      "sell_price": {
+        "1s": 150,
+        "2s": 225,
+        "3s": 300,
+        "4s": 600,
+        "5s": 1200
+      },
+      "locations": [
+        "rosy-river"
+      ],
+      "image": "",
+      "weather": [
+        "Sunny",
+        "Rainy",
+        "Rainbow"
+      ]
+    },
+    {
+      "id": 60,
+      "name": "Golden King Crab",
+      "sell_price": {
+        "1s": 850,
+        "2s": 1275,
+        "3s": 1700
+      },
+      "locations": [
+        "sea-fishing"
+      ],
+      "image": "",
+      "weather": [
+        "Rainbow"
+      ]
+    },
+    {
+      "id": 61,
+      "name": "Goldfish",
+      "sell_price": {
+        "1s": 250,
+        "2s": 375,
+        "3s": 500
+      },
+      "locations": [
+        "meadow-lake"
+      ],
+      "image": "",
+      "weather": [
+        "Rainy",
+        "Rainbow"
+      ]
+    },
+    {
+      "id": 62,
+      "name": "Haddock",
+      "sell_price": {
+        "1s": 230,
+        "2s": 345,
+        "3s": 460,
+        "4s": 920,
+        "5s": 1840
+      },
+      "locations": [
+        "east-sea"
+      ],
+      "image": "",
+      "weather": [
+        "Sunny",
+        "Rainbow"
+      ]
+    },
+    {
+      "id": 63,
+      "name": "Horse Mackerel",
+      "sell_price": {
+        "1s": 50,
+        "2s": 75,
+        "3s": 100,
+        "4s": 200,
+        "5s": 400
+      },
+      "locations": [
+        "whale-sea"
+      ],
+      "image": "",
+      "weather": [
+        "Sunny",
+        "Rainy",
+        "Rainbow"
+      ]
+    },
+    {
+      "id": 64,
+      "name": "Huchen",
+      "sell_price": {
+        "1s": 380,
+        "2s": 570,
+        "3s": 760,
+        "4s": 1520
+      },
+      "locations": [
+        "giantwood-river"
+      ],
+      "image": ""
+    },
+    {
+      "id": 65,
+      "name": "King Crab",
+      "sell_price": {
+        "1s": 535,
+        "2s": 802,
+        "3s": 1070,
+        "4s": 2140,
+        "5s": 4280
+      },
+      "locations": [
+        "whale-sea"
+      ],
+      "image": "",
+      "weather": [
+        "Rainbow"
+      ]
+    },
+    {
+      "id": 66,
+      "name": "Large Pearl Mussel",
+      "sell_price": {
+        "1s": 380,
+        "2s": 570,
+        "3s": 760,
+        "4s": 1520
+      },
+      "locations": [
+        "forest-lake"
+      ],
+      "image": "",
+      "weather": [
+        "Rainbow"
+      ]
+    },
+    {
+      "id": 67,
+      "name": "Largemouth Bass",
+      "sell_price": {
+        "1s": 230,
+        "2s": 345,
+        "3s": 460,
+        "4s": 920,
+        "5s": 1840
+      },
+      "locations": [
+        "forest-lake"
+      ],
+      "image": "",
+      "weather": [
+        "Sunny",
+        "Rainbow"
+      ]
+    },
+    {
+      "id": 68,
+      "name": "Mediterranean Killifish",
+      "sell_price": {
+        "1s": 150,
+        "2s": 225,
+        "3s": 300,
+        "4s": 600,
+        "5s": 1200
+      },
+      "locations": [
+        "suburban-lake"
+      ],
+      "image": "",
+      "weather": [
+        "Sunny",
+        "Rainbow"
+      ]
+    },
+    {
+      "id": 69,
+      "name": "Moonfish",
+      "sell_price": {
+        "1s": 850,
+        "2s": 1275,
+        "3s": 1700
+      },
+      "locations": [
+        "sea-fishing"
+      ],
+      "image": "",
+      "weather": [
+        "Sunny",
+        "Rainy",
+        "Rainbow"
+      ]
+    },
+    {
+      "id": 70,
+      "name": "Mottled Sculpin",
+      "sell_price": {
+        "1s": 150,
+        "2s": 225,
+        "3s": 300,
+        "4s": 600,
+        "5s": 1200
+      },
+      "locations": [
+        "onsen-mountain-lake"
+      ],
+      "image": "",
+      "weather": [
+        "Rainy",
+        "Rainbow"
+      ]
+    },
+    {
+      "id": 71,
+      "name": "Mud Sunfish",
+      "sell_price": {
+        "1s": 100,
+        "2s": 150,
+        "3s": 200,
+        "4s": 400,
+        "5s": 800
+      },
+      "locations": [
+        "forest-lake"
+      ],
+      "image": "",
+      "weather": [
+        "Sunny",
+        "Rainy",
+        "Rainbow"
+      ]
+    },
+    {
+      "id": 72,
+      "name": "Northern Pike",
+      "sell_price": {
+        "1s": 610,
+        "2s": 915,
+        "3s": 2440
+      },
+      "locations": [
+        "suburban-lake"
+      ],
+      "image": "",
+      "weather": [
+        "Rainy",
+        "Rainbow"
+      ]
+    },
+    {
+      "id": 73,
+      "name": "Ocean Sunfish",
+      "sell_price": {
+        "1s": 850,
+        "2s": 1275,
+        "3s": 1700
+      },
+      "locations": [
+        "east-sea"
+      ],
+      "image": "",
+      "weather": [
+        "Sunny",
+        "Rainy",
+        "Rainbow"
+      ]
+    },
+    {
+      "id": 74,
+      "name": "Puffer Fish",
+      "sell_price": {
+        "1s": 230,
+        "2s": 345,
+        "3s": 460,
+        "4s": 920,
+        "5s": 1840
+      },
+      "locations": [
+        "old-sea"
+      ],
+      "image": "",
+      "weather": [
+        "Sunny",
+        "Rainy",
+        "Rainbow"
+      ]
+    },
+    {
+      "id": 75,
+      "name": "Pumpkinseed",
+      "sell_price": {
+        "1s": 250,
+        "2s": 375,
+        "3s": 500
+      },
+      "locations": [
+        "onsen-mountain-lake"
+      ],
+      "image": "",
+      "weather": [
+        "Sunny",
+        "Rainbow"
+      ]
+    },
+    {
+      "id": 76,
+      "name": "Rabbit Fish",
+      "sell_price": {
+        "1s": 320,
+        "2s": 480,
+        "3s": 640,
+        "4s": 1280,
+        "5s": 2560
+      },
+      "locations": [
+        "ocean"
+      ],
+      "image": "",
+      "weather": [
+        "Sunny",
+        "Rainy",
+        "Rainbow"
+      ]
+    },
+    {
+      "id": 77,
+      "name": "Red-Bellied Piranha",
+      "sell_price": {
+        "1s": 230,
+        "2s": 345,
+        "3s": 460,
+        "4s": 920,
+        "5s": 1840
+      },
+      "locations": [
+        "giantwood-river"
+      ],
+      "image": "",
+      "weather": [
+        "Sunny",
+        "Rainy",
+        "Rainbow"
+      ]
+    },
+    {
+      "id": 78,
+      "name": "Seabream",
+      "sell_price": {},
+      "locations": [
+        "zephyr-sea"
+      ],
+      "image": ""
+    },
+    {
+      "id": 79,
+      "name": "Shortfin Mako Shark",
+      "sell_price": {},
+      "locations": [
+        "sea-fishing"
+      ],
+      "image": "",
+      "weather": [
+        "Sunny",
+        "Rainy",
+        "Rainbow"
+      ]
+    },
+    {
+      "id": 80,
+      "name": "Smooth Hammerhead",
+      "sell_price": {},
+      "locations": [
+        "old-sea"
+      ],
+      "image": "",
+      "weather": [
+        "Sunny",
+        "Rainy",
+        "Rainbow"
+      ]
+    },
+    {
+      "id": 81,
+      "name": "Streber",
+      "sell_price": {
+        "1s": 50,
+        "2s": 75,
+        "3s": 100,
+        "4s": 200,
+        "5s": 400
+      },
+      "locations": [
+        "rosy-river"
+      ],
+      "image": "",
+      "weather": [
+        "Sunny",
+        "Rainy",
+        "Rainbow"
+      ]
+    },
+    {
+      "id": 82,
+      "name": "Swordfish",
+      "sell_price": {},
+      "locations": [
+        "whale-sea"
+      ],
+      "image": "",
+      "weather": [
+        "Sunny",
+        "Rainy",
+        "Rainbow"
+      ]
+    },
+    {
+      "id": 83,
+      "name": "Three-Spined Stickleback",
+      "sell_price": {
+        "1s": 150,
+        "2s": 225,
+        "3s": 300,
+        "4s": 600,
+        "5s": 1200
+      },
+      "locations": [
+        "shallow-river"
+      ],
+      "image": "",
+      "weather": [
+        "Rainy",
+        "Rainbow"
+      ]
+    },
+    {
+      "id": 84,
+      "name": "Tilapia",
+      "sell_price": {
+        "1s": 320,
+        "2s": 480,
+        "3s": 640,
+        "4s": 1280,
+        "5s": 2560
+      },
+      "locations": [
+        "river"
+      ],
+      "image": "",
+      "weather": [
+        "Sunny",
+        "Rainy",
+        "Rainbow"
+      ]
+    },
+    {
+      "id": 85,
+      "name": "Trout",
+      "sell_price": {
+        "1s": 230,
+        "2s": 345,
+        "3s": 460,
+        "4s": 920,
+        "5s": 1840
+      },
+      "locations": [
+        "meadow-lake"
+      ],
+      "image": "",
+      "weather": [
+        "Sunny",
+        "Rainbow"
+      ]
+    },
+    {
+      "id": 86,
+      "name": "Tub Gurnard",
+      "sell_price": {
+        "1s": 380,
+        "2s": 570,
+        "3s": 760,
+        "4s": 1520
+      },
+      "locations": [
+        "east-sea"
+      ],
+      "image": "",
+      "weather": [
+        "Rainbow"
+      ]
+    },
+    {
+      "id": 87,
+      "name": "Wels Catfish",
+      "sell_price": {},
+      "locations": [
+        "meadow-lake"
+      ],
+      "image": ""
+    }
+  ],
+  "birds": [
+    {
+      "id": 1,
+      "name": "African Olive Pigeon",
+      "sell_price": {
+        "1s": 27,
+        "2s": 110,
+        "3s": 220,
+        "4s": 440,
+        "5s": 880
+      },
+      "locations": [
+        "onsen-mountain-onsen"
+      ],
+      "weather": [
+        "Sunny",
+        "Rainy",
+        "Rainbow"
+      ],
+      "image": "images/birds/african-olive-pigeon.png",
+      "hobby_level": 5,
+      "hobby_name": "Birdwatching",
+      "time": [
+        "4",
+        "3",
+        "1",
+        "2"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "American Flamingo",
+      "sell_price": {},
+      "locations": [
+        "flower-field"
+      ],
+      "weather": [
+        "Rainbow"
+      ],
+      "image": "images/birds/american-flamingo.png",
+      "hobby_level": 9,
+      "hobby_name": "Birdwatching",
+      "time": []
+    },
+    {
+      "id": 3,
+      "name": "Audouin's Gull",
+      "sell_price": {
+        "1s": 17,
+        "2s": 70,
+        "3s": 140,
+        "4s": 280,
+        "5s": 560
+      },
+      "locations": [
+        "whale-sea"
+      ],
+      "weather": [
+        "Sunny",
+        "Rainy",
+        "Rainbow"
+      ],
+      "image": "images/birds/audouins-gull.png",
+      "hobby_level": 3,
+      "hobby_name": "Birdwatching",
+      "time": [
+        "4",
+        "3",
+        "1",
+        "2"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Azure Tit",
+      "sell_price": {
+        "1s": 22,
+        "2s": 90,
+        "3s": 180,
+        "4s": 360,
+        "5s": 720
+      },
+      "locations": [
+        "windmill-flower-field"
+      ],
+      "weather": [
+        "Sunny",
+        "Rainy",
+        "Rainbow"
+      ],
+      "image": "images/birds/azure-tit.png",
+      "hobby_level": 7,
+      "hobby_name": "Birdwatching",
+      "time": [
+        "4",
+        "3",
+        "1",
+        "2"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Bearded Reedling",
+      "sell_price": {
+        "1s": 10,
+        "2s": 40,
+        "3s": 80,
+        "4s": 160,
+        "5s": 320
+      },
+      "locations": [
+        "onsen-mountain"
+      ],
+      "weather": [
+        "Sunny",
+        "Rainy",
+        "Rainbow"
+      ],
+      "image": "images/birds/bearded-reedling.png",
+      "hobby_level": 1,
+      "hobby_name": "Birdwatching",
+      "time": [
+        "4",
+        "3",
+        "1",
+        "2"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Blue Peafowl",
+      "sell_price": {
+        "1s": 10,
+        "2s": 40
+      },
+      "locations": [
+        "nest-of-hundreds-event"
+      ],
+      "weather": [
+        "Sunny",
+        "Rainy",
+        "Rainbow"
+      ],
+      "image": "images/birds/blue-peafowl.png",
+      "hobby_level": null,
+      "hobby_name": "Birdwatching",
+      "time": [
+        "4",
+        "3",
+        "1",
+        "2"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Blue-and-Yellow Macaw",
+      "sell_price": {
+        "1s": 7,
+        "2s": 30,
+        "3s": 60,
+        "4s": 120,
+        "5s": 240
+      },
+      "locations": [
+        "nest-of-hundreds-event"
+      ],
+      "weather": [
+        "Sunny",
+        "Rainy",
+        "Rainbow"
+      ],
+      "image": "images/birds/blue-and-yellow-macaw.png",
+      "hobby_level": null,
+      "hobby_name": "Birdwatching",
+      "time": [
+        "4",
+        "3",
+        "1",
+        "2"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Brown Noddy",
+      "sell_price": {
+        "1s": 22,
+        "2s": 90,
+        "3s": 180,
+        "4s": 360,
+        "5s": 720
+      },
+      "locations": [
+        "old-ocean-seaside"
+      ],
+      "weather": [
+        "Sunny",
+        "Rainy",
+        "Rainbow"
+      ],
+      "image": "images/birds/brown-noddy.png",
+      "hobby_level": 5,
+      "hobby_name": "Birdwatching",
+      "time": [
+        "4",
+        "3",
+        "1",
+        "2"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Cinnamon Ground Dove",
+      "sell_price": {
+        "1s": 27,
+        "2s": 110,
+        "3s": 220,
+        "4s": 440,
+        "5s": 880
+      },
+      "locations": [
+        "fishing-village-east-pier"
+      ],
+      "weather": [
+        "Sunny",
+        "Rainy",
+        "Rainbow"
+      ],
+      "image": "images/birds/cinnamon-ground-dove.png",
+      "hobby_level": 6,
+      "hobby_name": "Birdwatching",
+      "time": [
+        "4",
+        "3",
+        "1",
+        "2"
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Common Kestrel",
+      "sell_price": {
+        "2s": 47,
+        "3s": 190,
+        "4s": 380,
+        "5s": 760
+      },
+      "locations": [
+        "forest-deer-tower"
+      ],
+      "weather": [
+        "Sunny",
+        "Rainbow"
+      ],
+      "image": "images/birds/common-kestrel.png",
+      "hobby_level": 7,
+      "hobby_name": "Birdwatching",
+      "time": [
+        "4",
+        "3",
+        "1",
+        "2"
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Double-Barred Finch",
+      "sell_price": {
+        "1s": 10,
+        "2s": 40,
+        "3s": 80,
+        "4s": 160,
+        "5s": 320
+      },
+      "locations": [
+        "lighthouse"
+      ],
+      "weather": [
+        "Sunny",
+        "Rainy",
+        "Rainbow"
+      ],
+      "image": "images/birds/double-barred-finch.png",
+      "hobby_level": 3,
+      "hobby_name": "Birdwatching",
+      "time": [
+        "4",
+        "3",
+        "1",
+        "2"
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Eastern Bluebird",
+      "sell_price": {
+        "2s": 120
+      },
+      "locations": [
+        "suburbs"
+      ],
+      "weather": [
+        "Rainy",
+        "Rainbow"
+      ],
+      "image": "images/birds/eastern-bluebird.png",
+      "hobby_level": 7,
+      "hobby_name": "Birdwatching",
+      "time": [
+        "4",
+        "3",
+        "1",
+        "2"
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Eurasian Bullfinch",
+      "sell_price": {
+        "1s": 7,
+        "2s": 30,
+        "3s": 60,
+        "4s": 120,
+        "5s": 240
+      },
+      "locations": [
+        "suburbs"
+      ],
+      "weather": [
+        "Sunny",
+        "Rainy",
+        "Rainbow"
+      ],
+      "image": "images/birds/eurasian-bullfinch.png",
+      "hobby_level": 2,
+      "hobby_name": "Birdwatching",
+      "time": [
+        "4",
+        "3",
+        "1",
+        "2"
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Eurasian Chaffinch",
+      "sell_price": {
+        "1s": 7,
+        "2s": 30,
+        "3s": 60,
+        "4s": 120,
+        "5s": 240
+      },
+      "locations": [
+        "flower-field"
+      ],
+      "weather": [
+        "Sunny",
+        "Rainy",
+        "Rainbow"
+      ],
+      "image": "images/birds/eurasian-chaffinch.png",
+      "hobby_level": 2,
+      "hobby_name": "Birdwatching",
+      "time": [
+        "4",
+        "3",
+        "1",
+        "2"
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Eurasian Collared Dove",
+      "sell_price": {
+        "1s": 10,
+        "2s": 40,
+        "3s": 80,
+        "4s": 160,
+        "5s": 320
+      },
+      "locations": [
+        "home"
+      ],
+      "weather": [
+        "Sunny",
+        "Rainy",
+        "Rainbow"
+      ],
+      "image": "images/birds/eurasian-collared-dove.png",
+      "hobby_level": 1,
+      "hobby_name": "Birdwatching",
+      "time": [
+        "4",
+        "3",
+        "1",
+        "2"
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Eurasian Golden Oriole",
+      "sell_price": {
+        "1s": 15,
+        "2s": 60,
+        "3s": 120,
+        "4s": 240,
+        "5s": 480
+      },
+      "locations": [
+        "home"
+      ],
+      "weather": [
+        "Sunny",
+        "Rainy",
+        "Rainbow"
+      ],
+      "image": "images/birds/eurasian-golden-oriole.png",
+      "hobby_level": 3,
+      "hobby_name": "Birdwatching",
+      "time": [
+        "4",
+        "3",
+        "1",
+        "2"
+      ]
+    },
+    {
+      "id": 17,
+      "name": "Eurasian Nuthatch",
+      "sell_price": {
+        "1s": 10,
+        "2s": 40,
+        "3s": 80,
+        "4s": 160,
+        "5s": 320
+      },
+      "locations": [
+        "fishing-village"
+      ],
+      "weather": [
+        "Sunny",
+        "Rainy",
+        "Rainbow"
+      ],
+      "image": "images/birds/eurasian-nuthatch.png",
+      "hobby_level": 2,
+      "hobby_name": "Birdwatching",
+      "time": [
+        "4",
+        "3",
+        "1",
+        "2"
+      ]
+    },
+    {
+      "id": 18,
+      "name": "Eurasian Wigeon",
+      "sell_price": {
+        "1s": 17,
+        "2s": 70,
+        "3s": 140,
+        "4s": 280,
+        "5s": 560
+      },
+      "locations": [
+        "river"
+      ],
+      "weather": [
+        "Sunny",
+        "Rainy",
+        "Rainbow"
+      ],
+      "image": "images/birds/eurasian-wigeon.png",
+      "hobby_level": 2,
+      "hobby_name": "Birdwatching",
+      "time": [
+        "4",
+        "3",
+        "1",
+        "2"
+      ]
+    },
+    {
+      "id": 19,
+      "name": "Eurasian Wren",
+      "sell_price": {
+        "1s": 7,
+        "2s": 30,
+        "3s": 60,
+        "4s": 120,
+        "5s": 240
+      },
+      "locations": [
+        "forest"
+      ],
+      "weather": [
+        "Sunny",
+        "Rainy",
+        "Rainbow"
+      ],
+      "image": "images/birds/eurasian-wren.png",
+      "hobby_level": 1,
+      "hobby_name": "Birdwatching",
+      "time": [
+        "4",
+        "3",
+        "1",
+        "2"
+      ]
+    },
+    {
+      "id": 20,
+      "name": "European Bee-Eater",
+      "sell_price": {
+        "2s": 22,
+        "3s": 90,
+        "4s": 180,
+        "5s": 360
+      },
+      "locations": [
+        "onsen-mountain-lake-shore"
+      ],
+      "weather": [
+        "Rainy",
+        "Rainbow"
+      ],
+      "image": "images/birds/european-bee-eater.png",
+      "hobby_level": 5,
+      "hobby_name": "Birdwatching",
+      "time": [
+        "4",
+        "3",
+        "1",
+        "2"
+      ]
+    },
+    {
+      "id": 21,
+      "name": "European Robin",
+      "sell_price": {
+        "1s": 7,
+        "2s": 30,
+        "3s": 60,
+        "4s": 120,
+        "5s": 240
+      },
+      "locations": [
+        "central-area"
+      ],
+      "weather": [
+        "Sunny",
+        "Rainy",
+        "Rainbow"
+      ],
+      "image": "images/birds/european-robin.png",
+      "hobby_level": 1,
+      "hobby_name": "Birdwatching",
+      "time": [
+        "4",
+        "3",
+        "1",
+        "2"
+      ]
+    },
+    {
+      "id": 22,
+      "name": "European Shag",
+      "sell_price": {
+        "1s": 17,
+        "2s": 70,
+        "3s": 140,
+        "4s": 280,
+        "5s": 560
+      },
+      "locations": [
+        "forest-island",
+        "lighthouse"
+      ],
+      "weather": [
+        "Sunny",
+        "Rainy",
+        "Rainbow"
+      ],
+      "image": "images/birds/european-shag.png",
+      "hobby_level": 3,
+      "hobby_name": "Birdwatching",
+      "time": [
+        "4",
+        "3",
+        "1",
+        "2"
+      ]
+    },
+    {
+      "id": 23,
+      "name": "Great Green Macaw",
+      "sell_price": {
+        "2s": 15,
+        "3s": 60,
+        "4s": 120,
+        "5s": 240,
+        "6s": 480
+      },
+      "locations": [
+        "nest-of-hundreds-event"
+      ],
+      "weather": [
+        "Sunny",
+        "Rainbow"
+      ],
+      "image": "images/birds/great-green-macaw.png",
+      "hobby_level": null,
+      "hobby_name": "Birdwatching",
+      "time": [
+        "4",
+        "3",
+        "1",
+        "2"
+      ]
+    },
+    {
+      "id": 24,
+      "name": "Great Tit",
+      "sell_price": {
+        "1s": 7,
+        "2s": 30,
+        "3s": 60,
+        "4s": 120,
+        "5s": 240
+      },
+      "locations": [
+        "onsen-mountain"
+      ],
+      "weather": [
+        "Sunny",
+        "Rainy",
+        "Rainbow"
+      ],
+      "image": "images/birds/great-tit.png",
+      "hobby_level": 2,
+      "hobby_name": "Birdwatching",
+      "time": [
+        "4",
+        "3",
+        "1",
+        "2"
+      ]
+    },
+    {
+      "id": 25,
+      "name": "Greater Flamingo",
+      "sell_price": {
+        "1s": 15,
+        "2s": 60,
+        "3s": 120,
+        "4s": 240,
+        "5s": 480
+      },
+      "locations": [
+        "waterside"
+      ],
+      "weather": [
+        "Sunny",
+        "Rainy",
+        "Rainbow"
+      ],
+      "image": "images/birds/greater-flamingo.png",
+      "hobby_level": 1,
+      "hobby_name": "Birdwatching",
+      "time": [
+        "4",
+        "3",
+        "1",
+        "2"
+      ]
+    },
+    {
+      "id": 26,
+      "name": "Hawfinch",
+      "sell_price": {
+        "1s": 15,
+        "2s": 60,
+        "3s": 120,
+        "4s": 240,
+        "5s": 480
+      },
+      "locations": [
+        "onsen-mountain-crater-lake"
+      ],
+      "weather": [
+        "Sunny",
+        "Rainy",
+        "Rainbow"
+      ],
+      "image": "images/birds/hawfinch.png",
+      "hobby_level": 6,
+      "hobby_name": "Birdwatching",
+      "time": []
+    },
+    {
+      "id": 27,
+      "name": "Imperial Shag",
+      "sell_price": {},
+      "locations": [
+        "east-sea",
+        "zephyr-sea"
+      ],
+      "weather": [
+        "Sunny",
+        "Rainy",
+        "Rainbow"
+      ],
+      "image": "images/birds/imperial-shag.png",
+      "hobby_level": 9,
+      "hobby_name": "Birdwatching",
+      "time": []
+    },
+    {
+      "id": 28,
+      "name": "Jambu Fruit Dove",
+      "sell_price": {
+        "1s": 27,
+        "2s": 110,
+        "3s": 220,
+        "4s": 440,
+        "5s": 880
+      },
+      "locations": [
+        "suburbs"
+      ],
+      "weather": [
+        "Sunny",
+        "Rainy",
+        "Rainbow"
+      ],
+      "image": "images/birds/jambu-fruit-dove.png",
+      "hobby_level": 7,
+      "hobby_name": "Birdwatching",
+      "time": [
+        "4",
+        "3",
+        "1",
+        "2"
+      ]
+    },
+    {
+      "id": 29,
+      "name": "King Eider",
+      "sell_price": {
+        "1s": 17,
+        "2s": 70,
+        "3s": 140,
+        "4s": 280,
+        "5s": 560
+      },
+      "locations": [
+        "river"
+      ],
+      "weather": [
+        "Sunny",
+        "Rainy",
+        "Rainbow"
+      ],
+      "image": "images/birds/king-eider.png",
+      "hobby_level": 3,
+      "hobby_name": "Birdwatching",
+      "time": [
+        "4",
+        "3",
+        "1",
+        "2"
+      ]
+    },
+    {
+      "id": 30,
+      "name": "Lady Amherst Pheasant",
+      "sell_price": {
+        "1s": 17,
+        "2s": 70,
+        "3s": 140,
+        "4s": 280,
+        "5s": 560
+      },
+      "locations": [
+        "onsen-mountain-ruins"
+      ],
+      "weather": [
+        "Sunny",
+        "Rainy",
+        "Rainbow"
+      ],
+      "image": "images/birds/lady-amherst-pheasant.png",
+      "hobby_level": null,
+      "hobby_name": "Birdwatching",
+      "time": [
+        "4",
+        "3",
+        "1",
+        "2"
+      ]
+    },
+    {
+      "id": 31,
+      "name": "Lesser Flamingo",
+      "sell_price": {
+        "2s": 27,
+        "3s": 110,
+        "4s": 220,
+        "5s": 440,
+        "6s": 880
+      },
+      "locations": [
+        "forest-lake-shore"
+      ],
+      "weather": [
+        "Rainy",
+        "Rainbow"
+      ],
+      "image": "images/birds/lesser-flamingo.png",
+      "hobby_level": 5,
+      "hobby_name": "Birdwatching",
+      "time": [
+        "4",
+        "3",
+        "1",
+        "2"
+      ]
+    },
+    {
+      "id": 32,
+      "name": "Long Eared Owl",
+      "sell_price": {
+        "2s": 47,
+        "3s": 190,
+        "4s": 380,
+        "5s": 760
+      },
+      "locations": [
+        "onsen-mountain-stone-cliff"
+      ],
+      "weather": [
+        "Sunny",
+        "Rainbow"
+      ],
+      "image": "images/birds/long-eared-owl.png",
+      "hobby_level": 6,
+      "hobby_name": "Birdwatching",
+      "time": [
+        "4",
+        "3",
+        "1",
+        "2"
+      ]
+    },
+    {
+      "id": 33,
+      "name": "Long-Tailed Tit",
+      "sell_price": {
+        "1s": 2,
+        "2s": 8,
+        "3s": 16,
+        "4s": 32,
+        "5s": 64
+      },
+      "locations": [
+        "blancs-head"
+      ],
+      "weather": [
+        "Sunny",
+        "Rainy",
+        "Rainbow"
+      ],
+      "image": "images/birds/long-tailed-tit.png",
+      "hobby_level": 1,
+      "hobby_name": "Birdwatching",
+      "time": [
+        "4",
+        "3",
+        "1",
+        "2"
+      ]
+    },
+    {
+      "id": 34,
+      "name": "Mallard",
+      "sell_price": {
+        "1s": 12,
+        "2s": 50,
+        "3s": 100,
+        "4s": 200,
+        "5s": 400
+      },
+      "locations": [
+        "lake"
+      ],
+      "weather": [
+        "Sunny",
+        "Rainy",
+        "Rainbow"
+      ],
+      "image": "images/birds/mallard.png",
+      "hobby_level": 1,
+      "hobby_name": "Birdwatching",
+      "time": [
+        "4",
+        "3",
+        "1",
+        "2"
+      ]
+    },
+    {
+      "id": 35,
+      "name": "Paradise Tanager",
+      "sell_price": {},
+      "locations": [
+        "suburbs"
+      ],
+      "weather": [],
+      "image": "images/birds/paradise-tanager.png",
+      "hobby_level": 9,
+      "hobby_name": "Birdwatching",
+      "time": []
+    },
+    {
+      "id": 36,
+      "name": "Peregrine Falcon",
+      "sell_price": {
+        "2s": 65,
+        "3s": 260,
+        "4s": 1040,
+        "5s": 2080
+      },
+      "locations": [
+        "onsen-mountain-onsen"
+      ],
+      "weather": [
+        "Rainy",
+        "Rainbow"
+      ],
+      "image": "images/birds/peregrine-falcon.png",
+      "hobby_level": 7,
+      "hobby_name": "Birdwatching",
+      "time": [
+        "4",
+        "3",
+        "1",
+        "2"
+      ]
+    },
+    {
+      "id": 37,
+      "name": "Pied Imperial Pigeon",
+      "sell_price": {
+        "1s": 10,
+        "2s": 40,
+        "3s": 80,
+        "4s": 160,
+        "5s": 320
+      },
+      "locations": [
+        "fishing-village"
+      ],
+      "weather": [
+        "Sunny",
+        "Rainy",
+        "Rainbow"
+      ],
+      "image": "images/birds/pied-imperial-pigeon.png",
+      "hobby_level": 1,
+      "hobby_name": "Birdwatching",
+      "time": [
+        "4",
+        "3",
+        "1",
+        "2"
+      ]
+    },
+    {
+      "id": 38,
+      "name": "Pine Grosbeak",
+      "sell_price": {
+        "1s": 15,
+        "2s": 60,
+        "3s": 120,
+        "4s": 240,
+        "5s": 480
+      },
+      "locations": [
+        "forest-island"
+      ],
+      "weather": [
+        "Sunny",
+        "Rainy",
+        "Rainbow"
+      ],
+      "image": "images/birds/pine-grosbeak.png",
+      "hobby_level": 4,
+      "hobby_name": "Birdwatching",
+      "time": [
+        "4",
+        "3",
+        "1",
+        "2"
+      ]
+    },
+    {
+      "id": 39,
+      "name": "Pink Pigeon",
+      "sell_price": {
+        "1s": 27,
+        "2s": 110,
+        "3s": 220,
+        "4s": 440,
+        "5s": 880
+      },
+      "locations": [
+        "whale-mountain"
+      ],
+      "weather": [
+        "Sunny",
+        "Rainy",
+        "Rainbow"
+      ],
+      "image": "images/birds/pink-pigeon.png",
+      "hobby_level": 7,
+      "hobby_name": "Birdwatching",
+      "time": [
+        "4",
+        "3",
+        "1",
+        "2"
+      ]
+    },
+    {
+      "id": 40,
+      "name": "Pink-Necked Green Pigeon",
+      "sell_price": {
+        "1s": 15,
+        "2s": 60,
+        "3s": 120,
+        "4s": 240,
+        "5s": 480
+      },
+      "locations": [
+        "flower-field"
+      ],
+      "weather": [
+        "Sunny",
+        "Rainy",
+        "Rainbow"
+      ],
+      "image": "images/birds/pink-necked-green-pigeon.png",
+      "hobby_level": 1,
+      "hobby_name": "Birdwatching",
+      "time": [
+        "4",
+        "3",
+        "1",
+        "2"
+      ]
+    },
+    {
+      "id": 41,
+      "name": "Przevalski's Parrotbill",
+      "sell_price": {
+        "2s": 15,
+        "3s": 60,
+        "4s": 120,
+        "5s": 240,
+        "6s": 480
+      },
+      "locations": [
+        "fishing-village-square"
+      ],
+      "weather": [
+        "Sunny",
+        "Rainbow"
+      ],
+      "image": "images/birds/przevalskis-parrotbill.png",
+      "hobby_level": 4,
+      "hobby_name": "Birdwatching",
+      "time": [
+        "4",
+        "3",
+        "1",
+        "2"
+      ]
+    },
+    {
+      "id": 42,
+      "name": "Red Faced Cormorant",
+      "sell_price": {
+        "1s": 22,
+        "2s": 90,
+        "3s": 180,
+        "4s": 360,
+        "5s": 720
+      },
+      "locations": [
+        "whale-sea"
+      ],
+      "weather": [
+        "Sunny",
+        "Rainy",
+        "Rainbow"
+      ],
+      "image": "images/birds/red-faced-cormorant.png",
+      "hobby_level": 6,
+      "hobby_name": "Birdwatching",
+      "time": [
+        "4",
+        "3",
+        "1",
+        "2"
+      ]
+    },
+    {
+      "id": 43,
+      "name": "Red-and-Green Macaw",
+      "sell_price": {
+        "1s": 10,
+        "2s": 40,
+        "3s": 80,
+        "4s": 160,
+        "5s": 320
+      },
+      "locations": [
+        "nest-of-hundreds-event"
+      ],
+      "weather": [
+        "Sunny",
+        "Rainy",
+        "Rainbow"
+      ],
+      "image": "images/birds/red-and-green-macaw.png",
+      "hobby_level": null,
+      "hobby_name": "Birdwatching",
+      "time": [
+        "4",
+        "3",
+        "1",
+        "2"
+      ]
+    },
+    {
+      "id": 44,
+      "name": "Redpolis",
+      "sell_price": {},
+      "locations": [
+        "spirit-oak-pine-forest"
+      ],
+      "weather": [
+        "Sunny",
+        "Rainy",
+        "Rainbow"
+      ],
+      "image": "images/birds/redpolis.png",
+      "hobby_level": 7,
+      "hobby_name": "Birdwatching",
+      "time": []
+    },
+    {
+      "id": 45,
+      "name": "Regent Bowerbird",
+      "sell_price": {
+        "1s": 15,
+        "2s": 60,
+        "3s": 120,
+        "4s": 240,
+        "5s": 480
+      },
+      "locations": [
+        "spirit-oak-pine-forest"
+      ],
+      "weather": [
+        "Sunny",
+        "Rainy",
+        "Rainbow"
+      ],
+      "image": "images/birds/regent-bowerbird.png",
+      "hobby_level": 4,
+      "hobby_name": "Birdwatching",
+      "time": [
+        "4",
+        "3",
+        "1",
+        "2"
+      ]
+    },
+    {
+      "id": 46,
+      "name": "Ruddy Shelduck",
+      "sell_price": {
+        "1s": 17,
+        "2s": 70,
+        "3s": 140,
+        "4s": 280,
+        "5s": 560
+      },
+      "locations": [
+        "suburban-lake"
+      ],
+      "weather": [
+        "Sunny",
+        "Rainy",
+        "Rainbow"
+      ],
+      "image": "images/birds/ruddy-shelduck.png",
+      "hobby_level": 3,
+      "hobby_name": "Birdwatching",
+      "time": [
+        "4",
+        "3",
+        "1",
+        "2"
+      ]
+    },
+    {
+      "id": 47,
+      "name": "Seagull",
+      "sell_price": {
+        "1s": 17,
+        "2s": 70,
+        "3s": 140,
+        "4s": 280,
+        "5s": 560
+      },
+      "locations": [
+        "seaside"
+      ],
+      "weather": [
+        "Sunny",
+        "Rainy",
+        "Rainbow"
+      ],
+      "image": "images/birds/seagull.png",
+      "hobby_level": null,
+      "hobby_name": "Birdwatching",
+      "time": [
+        "4",
+        "3",
+        "1",
+        "2"
+      ]
+    },
+    {
+      "id": 48,
+      "name": "Silver-Throated Tit",
+      "sell_price": {
+        "1s": 10,
+        "2s": 40,
+        "3s": 80,
+        "4s": 160,
+        "5s": 320
+      },
+      "locations": [
+        "forest-jump-puzzle"
+      ],
+      "weather": [
+        "Sunny",
+        "Rainy",
+        "Rainbow"
+      ],
+      "image": "images/birds/silver-throated-tit.png",
+      "hobby_level": 3,
+      "hobby_name": "Birdwatching",
+      "time": [
+        "4",
+        "3",
+        "1",
+        "2"
+      ]
+    },
+    {
+      "id": 49,
+      "name": "Smew",
+      "sell_price": {
+        "1s": 22,
+        "2s": 90,
+        "3s": 180,
+        "4s": 360,
+        "5s": 720
+      },
+      "locations": [
+        "forest-lake"
+      ],
+      "weather": [
+        "Sunny",
+        "Rainy",
+        "Rainbow"
+      ],
+      "image": "images/birds/smew.png",
+      "hobby_level": 4,
+      "hobby_name": "Birdwatching",
+      "time": [
+        "4",
+        "3",
+        "1",
+        "2"
+      ]
+    },
+    {
+      "id": 50,
+      "name": "Stock Dove",
+      "sell_price": {
+        "1s": 10,
+        "2s": 40,
+        "3s": 80,
+        "4s": 160,
+        "5s": 320
+      },
+      "locations": [
+        "central-area"
+      ],
+      "weather": [
+        "Sunny",
+        "Rainy",
+        "Rainbow"
+      ],
+      "image": "images/birds/stock-dove.png",
+      "hobby_level": 2,
+      "hobby_name": "Birdwatching",
+      "time": [
+        "4",
+        "3",
+        "1",
+        "2"
+      ]
+    },
+    {
+      "id": 51,
+      "name": "Tern",
+      "sell_price": {
+        "3s": 35,
+        "4s": 280
+      },
+      "locations": [
+        "east-side-seaside"
+      ],
+      "weather": [
+        "Rainbow"
+      ],
+      "image": "images/birds/tern.png",
+      "hobby_level": 7,
+      "hobby_name": "Birdwatching",
+      "time": [
+        "4",
+        "3",
+        "1",
+        "2"
+      ]
+    },
+    {
+      "id": 52,
+      "name": "Wallace Fruit Dove",
+      "sell_price": {
+        "1s": 17,
+        "2s": 70,
+        "3s": 140,
+        "4s": 280,
+        "5s": 560
+      },
+      "locations": [
+        "windmill-flower-field"
+      ],
+      "weather": [
+        "Sunny",
+        "Rainy",
+        "Rainbow"
+      ],
+      "image": "images/birds/wallace-fruit-dove.png",
+      "hobby_level": null,
+      "hobby_name": "Birdwatching",
+      "time": [
+        "4",
+        "3",
+        "1",
+        "2"
+      ]
+    },
+    {
+      "id": 53,
+      "name": "White Wagtail",
+      "sell_price": {
+        "1s": 15,
+        "2s": 60,
+        "3s": 120,
+        "4s": 240,
+        "5s": 480
+      },
+      "locations": [
+        "amethyst-beach"
+      ],
+      "weather": [
+        "Sunny",
+        "Rainy",
+        "Rainbow"
+      ],
+      "image": "images/birds/white-wagtail.png",
+      "hobby_level": 4,
+      "hobby_name": "Birdwatching",
+      "time": [
+        "4",
+        "3",
+        "1",
+        "2"
+      ]
+    },
+    {
+      "id": 54,
+      "name": "White-Headed Duck",
+      "sell_price": {},
+      "locations": [
+        "onsen-mountain-lake"
+      ],
+      "weather": [
+        "Rainy",
+        "Rainbow"
+      ],
+      "image": "images/birds/white-headed-duck.png",
+      "hobby_level": 9,
+      "hobby_name": "Birdwatching",
+      "time": []
+    },
+    {
+      "id": 55,
+      "name": "Wonga Pigeon",
+      "sell_price": {
+        "1s": 15,
+        "2s": 60,
+        "3s": 120,
+        "4s": 240,
+        "5s": 480
+      },
+      "locations": [
+        "forest"
+      ],
+      "weather": [
+        "Sunny",
+        "Rainy",
+        "Rainbow"
+      ],
+      "image": "images/birds/wonga-pigeon.png",
+      "hobby_level": 1,
+      "hobby_name": "Birdwatching",
+      "time": [
+        "4",
+        "3",
+        "1",
+        "2"
+      ]
+    },
+    {
+      "id": 56,
+      "name": "Woodchat Shrike",
+      "sell_price": {
+        "1s": 10,
+        "2s": 40,
+        "3s": 80,
+        "4s": 160,
+        "5s": 320
+      },
+      "locations": [
+        "suburbs"
+      ],
+      "weather": [
+        "Sunny",
+        "Rainy",
+        "Rainbow"
+      ],
+      "image": "images/birds/woodchat-shrike.png",
+      "hobby_level": 2,
+      "hobby_name": "Birdwatching",
+      "time": [
+        "4",
+        "3",
+        "1",
+        "2"
+      ]
+    },
+    {
+      "id": 57,
+      "name": "Yellow Bellied Flycatcher",
+      "sell_price": {
+        "1s": 15,
+        "2s": 60,
+        "3s": 120,
+        "4s": 240,
+        "5s": 480
+      },
+      "locations": [
+        "fishing-village-wharf"
+      ],
+      "weather": [
+        "Sunny",
+        "Rainy",
+        "Rainbow"
+      ],
+      "image": "images/birds/yellow-bellied-flycatcher.png",
+      "hobby_level": 5,
+      "hobby_name": "Birdwatching",
+      "time": [
+        "4",
+        "3",
+        "1",
+        "2"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "id": "amethyst-beach",
+      "name": "Flower Field (Amethyst Beach)",
+      "image": ""
+    },
+    {
+      "id": "art-street",
+      "name": "Art Street",
+      "image": ""
+    },
+    {
+      "id": "cafe",
+      "name": "Cafe",
+      "image": ""
+    },
+    {
+      "id": "central-square",
+      "name": "Central Square",
+      "image": ""
+    },
+    {
+      "id": "central-area",
+      "name": "Central Area",
+      "image": ""
+    },
+    {
+      "id": "crater-lake",
+      "name": "Crater Lake",
+      "image": ""
+    },
+    {
+      "id": "forest-deer-tower",
+      "name": "Forest (Deer Tower)",
+      "image": ""
+    },
+    {
+      "id": "east-pier-of-fishing-village",
+      "name": "East Pier of Fishing Village",
+      "image": ""
+    },
+    {
+      "id": "east-sea",
+      "name": "East Sea",
+      "image": ""
+    },
+    {
+      "id": "fishing-village-square",
+      "name": "Fishing Village Square",
+      "image": ""
+    },
+    {
+      "id": "forest-island",
+      "name": "Forest Island",
+      "image": ""
+    },
+    {
+      "id": "forest-lake",
+      "name": "Forest Lake",
+      "image": ""
+    },
+    {
+      "id": "garden-street",
+      "name": "Garden Street",
+      "image": ""
+    },
+    {
+      "id": "giantwood-river",
+      "name": "Giantwood River",
+      "image": ""
+    },
+    {
+      "id": "jump-puzzle",
+      "name": "Jump Puzzle",
+      "image": ""
+    },
+    {
+      "id": "lighthouse",
+      "name": "Fishing Village (Lighthouse)",
+      "image": ""
+    },
+    {
+      "id": "meadow-lake",
+      "name": "Meadow Lake",
+      "image": ""
+    },
+    {
+      "id": "old-sea",
+      "name": "Old Sea",
+      "image": ""
+    },
+    {
+      "id": "onsen",
+      "name": "Onsen",
+      "image": ""
+    },
+    {
+      "id": "onsen-mountain-lake",
+      "name": "Onsen Mountain Lake",
+      "image": ""
+    },
+    {
+      "id": "pet-store-(upstairs)",
+      "name": "Pet Store (upstairs)",
+      "image": ""
+    },
+    {
+      "id": "plot-1",
+      "name": "Plot 1",
+      "image": ""
+    },
+    {
+      "id": "plot-10",
+      "name": "Plot 10",
+      "image": ""
+    },
+    {
+      "id": "plot-11",
+      "name": "Plot 11",
+      "image": ""
+    },
+    {
+      "id": "plot-12",
+      "name": "Plot 12",
+      "image": ""
+    },
+    {
+      "id": "plot-2",
+      "name": "Plot 2",
+      "image": ""
+    },
+    {
+      "id": "plot-3",
+      "name": "Plot 3",
+      "image": ""
+    },
+    {
+      "id": "plot-4",
+      "name": "Plot 4",
+      "image": ""
+    },
+    {
+      "id": "plot-5",
+      "name": "Plot 5",
+      "image": ""
+    },
+    {
+      "id": "plot-6",
+      "name": "Plot 6",
+      "image": ""
+    },
+    {
+      "id": "plot-7",
+      "name": "Plot 7",
+      "image": ""
+    },
+    {
+      "id": "plot-8",
+      "name": "Plot 8",
+      "image": ""
+    },
+    {
+      "id": "plot-9",
+      "name": "Plot 9",
+      "image": ""
+    },
+    {
+      "id": "residential-street",
+      "name": "Residential Street",
+      "image": ""
+    },
+    {
+      "id": "riverside-dock",
+      "name": "Riverside Dock",
+      "image": ""
+    },
+    {
+      "id": "rosy-river",
+      "name": "Rosy River",
+      "image": ""
+    },
+    {
+      "id": "sea-fishing",
+      "name": "Sea Fishing Event",
+      "image": ""
+    },
+    {
+      "id": "shallow-river",
+      "name": "Shallow River",
+      "image": ""
+    },
+    {
+      "id": "spirit-oak-pine-forest",
+      "name": "Forest (Spirit-Oak Pine Forest)",
+      "image": ""
+    },
+    {
+      "id": "stone-cliff",
+      "name": "Stone Cliff",
+      "image": ""
+    },
+    {
+      "id": "suburban-lake",
+      "name": "Suburban Lake",
+      "image": ""
+    },
+    {
+      "id": "suburban-lakeshore",
+      "name": "Suburban Lakeshore",
+      "image": ""
+    },
+    {
+      "id": "suburbs",
+      "name": "Suburbs",
+      "image": ""
+    },
+    {
+      "id": "tranquil-river",
+      "name": "Tranquil River",
+      "image": ""
+    },
+    {
+      "id": "whale-mountain",
+      "name": "Flower Field (Whale Mountain)",
+      "image": ""
+    },
+    {
+      "id": "whale-sea",
+      "name": "Whale Sea",
+      "image": ""
+    },
+    {
+      "id": "wharf",
+      "name": "Wharf",
+      "image": ""
+    },
+    {
+      "id": "windmill-flower-field",
+      "name": "Flower Field (Windmill) ",
+      "image": ""
+    },
+    {
+      "id": "zephyr-sea",
+      "name": "Zephyr Sea",
+      "image": ""
+    },
+    {
+      "id": "forest",
+      "name": "Forest",
+      "image": ""
+    },
+    {
+      "id": "river",
+      "name": "River",
+      "image": ""
+    },
+    {
+      "id": "flower-field",
+      "name": "Flower Field",
+      "image": ""
+    },
+    {
+      "id": "fishing-village-wharf",
+      "name": "Fishing Village Wharf",
+      "image": ""
+    },
+    {
+      "id": "east-side-seaside",
+      "name": "East Side Seaside",
+      "image": ""
+    },
+    {
+      "id": "forest-jump-puzzle",
+      "name": "Forest (Jump Puzzle)",
+      "image": ""
+    },
+    {
+      "id": "seaside",
+      "name": "Seaside",
+      "image": ""
+    },
+    {
+      "id": "nest-of-hundreds-event",
+      "name": "Nest of Hundreds Event",
+      "image": ""
+    },
+    {
+      "id": "fishing-village",
+      "name": "Fishing Village",
+      "image": ""
+    },
+    {
+      "id": "blancs-head",
+      "name": "On Blanc's Head",
+      "image": ""
+    },
+    {
+      "id": "onsen-mountain",
+      "name": "Onsen Mountain",
+      "image": ""
+    },
+    {
+      "id": "onsen-mountain-crater-lake",
+      "name": "Onsen Mountain (Crater Lake)",
+      "image": ""
+    },
+    {
+      "id": "onsen-mountain-ruins",
+      "name": "Onsen Mountain (Ruins)",
+      "image": ""
+    },
+    {
+      "id": "onsen-mountain-stone-cliff",
+      "name": "Onsen Mountain (Stone Cliff)",
+      "image": ""
+    },
+    {
+      "id": "onsen-mountain-onsen",
+      "name": "Onsen Mountain (Onsen)",
+      "image": ""
+    },
+    {
+      "id": "fishing-village-east-pier",
+      "name": "Fishing Village (East Pier)",
+      "image": ""
+    },
+    {
+      "id": "home",
+      "name": "Home",
+      "image": ""
+    },
+    {
+      "id": "onsen-mountain-lake-shore",
+      "name": "Onsen Mountain (Lake Shore)",
+      "image": ""
+    },
+    {
+      "id": "waterside",
+      "name": "Waterside",
+      "image": ""
+    },
+    {
+      "id": "forest-lake-shore",
+      "name": "Forest Lake Shore",
+      "image": ""
+    },
+    {
+      "id": "lake",
+      "name": "Lake",
+      "image": ""
+    },
+    {
+      "id": "home-rocks",
+      "name": "Home (Rocks)",
+      "image": ""
+    },
+    {
+      "id": "bait-the-insects-event",
+      "name": "Bait the Insects Event",
+      "image": ""
+    },
+    {
+      "id": "river-bank",
+      "name": "River Bank",
+      "image": ""
+    },
+    {
+      "id": "bait-the-insects-event-ruins",
+      "name": "Bait the Insects Event (Ruins)",
+      "image": ""
+    },
+    {
+      "id": "onsen-stone-cliff-side-of-trees",
+      "name": "Onsen (Stone Cliff Side of Trees)",
+      "image": ""
+    },
+    {
+      "id": "inflatable-insect-attractor",
+      "name": "Inflatable Insect Attractor Speciality",
+      "image": ""
+    }
+  ],
+  "weather": [
+    {
+      "id": 1,
+      "name": "Sunny",
+      "image": ""
+    },
+    {
+      "id": 2,
+      "name": "Rainy",
+      "image": ""
+    },
+    {
+      "id": 3,
+      "name": "Cloudy",
+      "image": ""
+    },
+    {
+      "id": 4,
+      "name": "Rainbow",
+      "image": ""
+    }
+  ],
+  "npc": [
+    {
+      "id": 5,
+      "name": "Bailey J",
+      "location": "pet-store-(upstairs)",
+      "bio": "Birdwatching Mentor"
+    },
+    {
+      "id": 1,
+      "name": "Blanc",
+      "location": "garden-street",
+      "bio": "Gardening Mentor"
+    },
+    {
+      "id": 2,
+      "name": "Massimo",
+      "location": "cafe",
+      "bio": "Cooking Mentor"
+    },
+    {
+      "id": 3,
+      "name": "Naniwa",
+      "location": "garden-street",
+      "bio": "Bug Catching Mentor\n"
+    },
+    {
+      "id": 4,
+      "name": "Vanya",
+      "location": "riverside-dock",
+      "bio": "Fishing Mentor"
+    }
+  ],
+  "hobby": [
+    {
+      "id": 4,
+      "image": "",
+      "name": "Birdwatching",
+      "npc_name": "Bailey J",
+      "max_level": 10
+    },
+    {
+      "id": 5,
+      "image": "",
+      "name": "Bug Catching",
+      "npc_name": "Naniwa",
+      "max_level": 10
+    },
+    {
+      "id": 2,
+      "image": "",
+      "name": "Cooking",
+      "npc_name": "Massimo",
+      "max_level": 10
+    },
+    {
+      "id": 3,
+      "image": "",
+      "name": "Fishing",
+      "npc_name": "Vanya",
+      "max_level": 10
+    },
+    {
+      "id": 1,
+      "image": "",
+      "name": "Gardening",
+      "npc_name": "Blanc",
+      "max_level": 10
+    }
+  ],
+  "time": [
+    {
+      "id": 5,
+      "image": "",
+      "name": "All Day",
+      "description": ""
+    },
+    {
+      "id": 3,
+      "image": "",
+      "name": "Dawn",
+      "description": ""
+    },
+    {
+      "id": 1,
+      "image": "",
+      "name": "Day",
+      "description": ""
+    },
+    {
+      "id": 2,
+      "image": "",
+      "name": "Dusk",
+      "description": ""
+    },
+    {
+      "id": 4,
+      "image": "",
+      "name": "Night",
+      "description": ""
+    }
+  ]
+}

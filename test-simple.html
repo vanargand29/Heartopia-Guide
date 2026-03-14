@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Heartopia Guide 2026 • Test</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #e91e63;
+      --bg: #0f0f17;
+      --card: #1a1a2e;
+      --text: #e0e0ff;
+      --text-light: #a0a0cc;
+      --border: #333355;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Inter', system-ui, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      min-height: 100vh;
+    }
+
+    .container {
+      max-width: 1400px;
+      margin: 0 auto;
+      padding: 0 1.5rem;
+    }
+
+    header {
+      background: linear-gradient(135deg, #1e0033, #0d001a);
+      padding: 1.5rem 5%;
+      border-bottom: 1px solid var(--border);
+    }
+
+    h1 {
+      font-size: 2.1rem;
+      color: white;
+      margin-bottom: 0.5rem;
+    }
+
+    .subtitle {
+      color: var(--text-light);
+      font-size: 1.05rem;
+    }
+
+    nav.tabs {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.6rem;
+      margin: 1.8rem 0 1.5rem;
+      padding-bottom: 1rem;
+      border-bottom: 1px solid var(--border);
+    }
+
+    nav.tabs button {
+      background: var(--card);
+      border: 1px solid var(--border);
+      color: var(--text);
+      padding: 0.65rem 1.4rem;
+      border-radius: 999px;
+      cursor: pointer;
+      font-weight: 500;
+      transition: all 0.22s;
+    }
+
+    nav.tabs button.active {
+      background: var(--primary);
+      color: white;
+      border-color: var(--primary);
+    }
+
+    .search-bar {
+      margin: 1.5rem 0 2rem;
+      max-width: 500px;
+    }
+
+    .search-bar input {
+      width: 100%;
+      padding: 0.9rem 1.3rem;
+      border-radius: 12px;
+      border: 1px solid var(--border);
+      background: #141422;
+      color: white;
+      font-size: 1rem;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 1.2rem;
+      margin-top: 1rem;
+    }
+
+    .card {
+      background: var(--card);
+      border-radius: 12px;
+      overflow: hidden;
+      border: 1px solid var(--border);
+      transition: all 0.25s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 12px 30px rgba(0,0,0,0.4);
+      border-color: #444466;
+    }
+
+    .card-img {
+      width: 100%;
+      height: 160px;
+      object-fit: contain;
+      background: #0a0a14;
+      padding: 1rem;
+    }
+
+    .card-body {
+      padding: 1.1rem 1.3rem;
+    }
+
+    .card-title {
+      font-size: 1.15rem;
+      margin-bottom: 0.5rem;
+      font-weight: 600;
+    }
+
+    .card-subtitle {
+      color: var(--text-light);
+      font-size: 0.92rem;
+      margin-bottom: 0.7rem;
+    }
+
+    .price-tag {
+      display: inline-block;
+      background: rgba(233,30,99,0.15);
+      color: #ff79b0;
+      padding: 0.35rem 0.8rem;
+      border-radius: 999px;
+      font-size: 0.9rem;
+      font-weight: 500;
+      margin-top: 0.6rem;
+    }
+
+    .empty-state {
+      text-align: center;
+      padding: 5rem 1rem;
+      color: #777799;
+      font-size: 1.2rem;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="container">
+    <h1>Heartopia Guide 2026</h1>
+    <div class="subtitle">Database lengkap ingredients, makanan, ikan, burung, serangga & lainnya</div>
+  </div>
+</header>
+
+<div class="container">
+
+  <nav class="tabs">
+    <button class="active" data-tab="foods">Makanan</button>
+    <button data-tab="ingredients">Bahan</button>
+    <button data-tab="seeds">Benih</button>
+    <button data-tab="insects">Serangga</button>
+    <button data-tab="birds">Burung</button>
+    <button data-tab="fish">Ikan</button>
+  </nav>
+
+  <div class="search-bar">
+    <input type="text" id="searchInput" placeholder="Cari nama makanan, bahan, ikan, burung..." autocomplete="off">
+  </div>
+
+  <div id="contentArea" class="grid">
+    <!-- Kartu akan di-generate oleh JavaScript -->
+  </div>
+
+</div>
+
+<script>
+// Sample data untuk testing
+const DATA = {
+  ingredients: [
+    {
+      id: 1,
+      name: "Tomato",
+      sell_price: null,
+      buy_price: null,
+      source: "seed",
+      image: "images/ingredients/tomato.png",
+      sell_price_stars: {
+        "1s": 30,
+        "2s": 40,
+        "3s": 50
+      },
+      locations: [],
+      hobby_name: "Gardening",
+      hobby_level: 1
+    },
+    {
+      id: 2,
+      name: "Potato",
+      sell_price: null,
+      buy_price: null,
+      source: "seed",
+      image: "images/ingredients/potato.png",
+      sell_price_stars: {
+        "1s": 90,
+        "2s": 120,
+        "3s": 150,
+        "4s": 180
+      },
+      locations: []
+    }
+  ],
+  foods: [
+    {
+      id: 1,
+      name: "Salad",
+      sell_price: null,
+      buy_price: null,
+      image: "images/foods/salad.png",
+      sell_price_stars: {
+        "1s": 100,
+        "2s": 130,
+        "3s": 160
+      },
+      hobby_level: 1
+    }
+  ],
+  seeds: [],
+  insects: [],
+  birds: [],
+  fish: []
+};
+
+function renderCard(item, type) {
+  let title = item.name;
+  let subtitle = '';
+  let price = '';
+
+  if (type === 'foods' || type === 'ingredients') {
+    if (item.sell_price && item.sell_price["1s"]) {
+      price = `1★ ${item.sell_price["1s"]}`;
+      if (item.sell_price["5s"]) price += ` – 5★ ${item.sell_price["5s"]}`;
+    } else if (item.sell_price_stars && item.sell_price_stars["1s"]) {
+      price = `1★ ${item.sell_price_stars["1s"]}`;
+    }
+    subtitle = item.hobby_level ? `Cooking Lv.${item.hobby_level}` : '';
+  } else if (type === 'seeds') {
+    price = item.price ? `Beli: ${item.price}` : '';
+    subtitle = item.hobby_level ? `Lv.${item.hobby_level}` : '';
+  } else if (type === 'insects' || type === 'birds') {
+    if (item.sell_price && item.sell_price["1s"]) {
+      price = `1★ ${item.sell_price["1s"]}`;
+    }
+    subtitle = item.locations?.join(', ') || '';
+  }
+
+  return `
+    <div class="card">
+      ${item.image ? `<img src="${item.image}" alt="${title}" class="card-img" onerror="this.src='https://placehold.co/280x160/1a1a2e/666?text=${encodeURIComponent(title)}'; this.onerror=null;">` : ''}
+      <div class="card-body">
+        <div class="card-title">${title}</div>
+        ${subtitle ? `<div class="card-subtitle">${subtitle}</div>` : ''}
+        ${price ? `<div class="price-tag">${price}</div>` : ''}
+      </div>
+    </div>
+  `;
+}
+
+const contentArea = document.getElementById('contentArea');
+const searchInput  = document.getElementById('searchInput');
+let currentTab = 'foods';
+
+function renderTab(tab) {
+  console.log('Rendering tab:', tab);
+  currentTab = tab;
+  const items = DATA[tab] || [];
+  contentArea.innerHTML = '';
+
+  if (items.length === 0) {
+    contentArea.innerHTML = '<div class="empty-state">Data belum dimuat atau kategori kosong...</div>';
+    return;
+  }
+
+  const html = items.map(item => renderCard(item, tab)).join('');
+  contentArea.innerHTML = html;
+  console.log('Rendered', items.length, 'items');
+}
+
+// Event listeners
+document.querySelectorAll('.tabs button').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelector('.tabs .active')?.classList.remove('active');
+    btn.classList.add('active');
+    renderTab(btn.dataset.tab);
+  });
+});
+
+searchInput.addEventListener('input', e => {
+  const q = e.target.value.toLowerCase().trim();
+  if (!q) {
+    renderTab(currentTab);
+    return;
+  }
+
+  const items = (DATA[currentTab] || []).filter(item =>
+    item.name.toLowerCase().includes(q)
+  );
+
+  contentArea.innerHTML = items.length 
+    ? items.map(item => renderCard(item, currentTab)).join('')
+    : '<div class="empty-state">Tidak ditemukan hasil untuk "' + q + '"</div>';
+});
+
+// Init
+document.addEventListener('DOMContentLoaded', () => {
+  console.log('DOM loaded, initializing...');
+  console.log('Data:', DATA);
+  renderTab('foods');
+});
+</script>
+
+</body>
+</html>

@@ -492,9 +492,60 @@
       text-align: center;
       padding: 3rem 1rem 2rem;
       color: var(--text-dim);
-      font-size: 0.9rem;
       border-top: 2px solid var(--border);
       margin-top: 4rem;
+    }
+
+    .donate-section {
+      margin-bottom: 2rem;
+      padding: 1.5rem;
+      background: var(--card);
+      border-radius: 16px;
+      border: 1px solid var(--border);
+      max-width: 400px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .donate-title {
+      font-size: 1.2rem;
+      font-weight: 600;
+      color: var(--text);
+      margin-bottom: 1rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.5rem;
+    }
+
+    .donate-images {
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      flex-wrap: wrap;
+      margin-bottom: 1rem;
+    }
+
+    .donate-image {
+      width: 100px;
+      height: 100px;
+      border-radius: 8px;
+      object-fit: cover;
+      border: 2px solid var(--border);
+      transition: all 0.3s ease;
+      cursor: pointer;
+    }
+
+    .donate-image:hover {
+      transform: scale(1.05);
+      border-color: var(--primary);
+      box-shadow: 0 8px 25px var(--shadow);
+    }
+
+    .donate-note {
+      font-size: 0.9rem;
+      color: var(--text-light);
+      margin-top: 0.5rem;
     }
 
     .loading-spinner {
@@ -668,6 +719,37 @@
       .card-img {
         height: 140px;
       }
+      
+      .donate-section {
+        margin-bottom: 1.5rem;
+        padding: 1rem;
+        background: var(--card);
+        border-radius: 12px;
+        border: 1px solid var(--border);
+        max-width: 100%;
+      }
+      
+      .donate-title {
+        font-size: 1rem;
+        font-weight: 600;
+        color: var(--text);
+        margin-bottom: 0.8rem;
+      }
+      
+      .donate-images {
+        gap: 0.8rem;
+        margin-bottom: 0.8rem;
+      }
+      
+      .donate-image {
+        width: 80px;
+        height: 80px;
+        border-radius: 6px;
+      }
+      
+      .donate-note {
+        font-size: 0.8rem;
+      }
     }
   </style>
 </head>
@@ -713,6 +795,20 @@
 </div>
 
 <footer>
+  <div class="donate-section">
+    <div class="donate-title">
+      <i class="fas fa-heart"></i>
+      Support Heartopia Guide
+    </div>
+    <div class="donate-images">
+      <img src="https://i.imgur.com/Z52GUjq.jpg" alt="Donate QR Code 1" class="donate-image" onclick="window.open('https://i.imgur.com/Z52GUjq.jpg', '_blank')">
+      <img src="https://i.imgur.com/l7X1r4d.jpg" alt="Donate QR Code 2" class="donate-image" onclick="window.open('https://i.imgur.com/l7X1r4d.jpg', '_blank')">
+    </div>
+    <div class="donate-note">
+      Klik gambar untuk memperbesar • Terima kasih atas dukungan Anda!
+    </div>
+  </div>
+  
   <p><i class="fas fa-code"></i> Data diambil dari heartopia data • Dibuat untuk komunitas Heartopia •</p>
 </footer>
 
